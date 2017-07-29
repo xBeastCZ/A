@@ -2,7 +2,7 @@
    "room":"ALL SONGS CZ/SK",
    "author":"xBeast",
    "icon":null,
-   "css":"https://rawgit.com/xBeastCZ/FidoCZECH/master/room.css",
+   "css":"https://rawgit.com/xBeastCZ/online/master/room.css",
    "rules":{  
       "allowAutorespond":true,
       "allowAutowoot":true,
@@ -28,7 +28,7 @@
    },
    "images":{  
       "background": "http://i.imgur.com/fwF6lHa.jpg",
-      "playback":  "",
+      "playback":null,
       "admin":null,
       "ambassador":null,
       "host":null,
