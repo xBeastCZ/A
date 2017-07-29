@@ -909,7 +909,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #chat [data-cid^='29140933-'] .un:after,
 #user-lists .list .user.id-29140933 .name:after,
 #user-rollover.id-29140933 .username:after {
-    content: 'ROM DESIGNER';
+    content: 'ROOM DESIGNER';
     border-style: solid;
     border-color: #FFD244;
     border-radius: 2px;
