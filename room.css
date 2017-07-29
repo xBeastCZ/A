@@ -909,7 +909,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #chat [data-cid^='29140933-'] .un:after,
 #user-lists .list .user.id-29140933 .name:after,
 #user-rollover.id-29140933 .username:after {
-    content: 'Room designer';
+    content: 'ROM DESIGNER';
     border-style: solid;
     border-color: #FFD244;
     border-radius: 2px;
@@ -947,7 +947,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-29140933 .name,
 #user-rollover.id-29140933 .username,
 #chat [data-cid^='29140933-'] .un {
-    color: #ff3d00 !important;
+    color: #b300b3 !important;
     font-style: italic;
 }
 
@@ -1021,7 +1021,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-6291187 .name,
 #user-rollover.id-6291187 .username,
 #chat [data-cid^='6291187-'] .un {
-    color: #ff3d00 !important;
+    color: #f7004e !important;
     font-style: italic;
 }
 
@@ -1095,7 +1095,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-4822496 .name,
 #user-rollover.id-4822496 .username,
 #chat [data-cid^='4822496-'] .un {
-    color: #ff3d00 !important;
+    color: #f7004e !important;
     font-style: italic;
 }
 
@@ -1169,7 +1169,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-4741080 .name,
 #user-rollover.id-4741080 .username,
 #chat [data-cid^='4741080-'] .un {
-    color: #ff3d00 !important;
+    color: #00f72d !important;
     font-style: italic;
 }
 
@@ -1182,3 +1182,4 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
     background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
     border-radius: 10px;
 }
+
