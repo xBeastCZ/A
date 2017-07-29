@@ -1,0 +1,45 @@
+{  
+   "room":"ALL SONGS CZ/SK",
+   "author":"xBeast",
+   "icon":null,
+   "css":"https://rawgit.com/xBeastCZ/FREE/master/room.css",
+   "rules":{  
+      "allowAutorespond":true,
+      "allowAutowoot":true,
+      "allowAutojoin":true,
+      "allowAutograb":true,
+      "allowSmartVote":true,
+      "allowEmotes":true,
+      "allowShowingMehs":true,
+      "forceSmartVote":false
+   },
+   "ccc":{  
+      "admin":null,
+      "ambassador":null,
+      "host":null,
+      "cohost":null,
+      "manager":null,
+      "bouncer":null,
+      "rdj":null,
+      "subscriber":null,
+      "silversubscriber":null,
+      "friend":null,
+      "user":null
+   },
+   "images":{  
+      "background": "http://i.imgur.com/fwF6lHa.jpg",
+      "playback":null,
+      "admin":null,
+      "ambassador":null,
+      "host":null,
+      "cohost":null,
+      "manager":null,
+      "bouncer":null,
+      "rdj":null,
+      "subscriber":null,
+      "silversubscriber":null
+   },
+   "emotes":{  
+      "emote_name":null
+   }
+}
