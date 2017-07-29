@@ -3,8 +3,7 @@
 # Author:		xBeast
 # Made for:		https://plug.dj/allsongs-czsk
 # Created:		29.7.2017
-## WARNING ##
-You are NOT allowed using this file without creator's permission!
+
 */
 
 * {
@@ -146,7 +145,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 #playback .background {
-	background: url('http://i.imgur.com/XmO5ijj.png') !important;
+	background: url('') !important;
 	width: 700px !important;
 	height: 270px !important;
 	left:-90px;
