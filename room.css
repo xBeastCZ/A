@@ -198,10 +198,10 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 
 /* Groups */
 
-.group.host {color:#f7004e;}
-.group.manager {color:#00f72d;}
-.group.bouncer {color:#b300b3;}
-.group.dj {color:#ad0000;}
+.group.host {color:#ff0083e;}
+.group.manager {color:#ff0000;}
+.group.bouncer {color:#26ff00;}
+.group.dj {color:#0083ff;}
 
 /* Bans */
 
@@ -947,7 +947,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-29140933 .name,
 #user-rollover.id-29140933 .username,
 #chat [data-cid^='29140933-'] .un {
-    color: #b300b3 !important;
+    color: #26ff00 !important;
     font-style: italic;
 }
 
@@ -1021,7 +1021,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-6291187 .name,
 #user-rollover.id-6291187 .username,
 #chat [data-cid^='6291187-'] .un {
-    color: #f7004e !important;
+    color: #ff0083 !important;
     font-style: italic;
 }
 
@@ -1095,7 +1095,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-4822496 .name,
 #user-rollover.id-4822496 .username,
 #chat [data-cid^='4822496-'] .un {
-    color: #f7004e !important;
+    color: #ff0083 !important;
     font-style: italic;
 }
 
@@ -1169,7 +1169,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #user-lists .list .user.id-4741080 .name,
 #user-rollover.id-4741080 .username,
 #chat [data-cid^='4741080-'] .un {
-    color: #00f72d !important;
+    color: #ff0000 !important;
     font-style: italic;
 }
 
