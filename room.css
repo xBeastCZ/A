@@ -1926,6 +1926,23 @@ action.friend {
     font-style: normal;
 }
 
+/* Ðʝ Ƒ𝐢ᗪ𐍈 */
+
+#chat [data-cid^='4822496-'] .un:after,
+#user-lists .list .user.id-4822496 .name:after,
+#user-rollover.id-4822496 .username:after {
+    content: 'Host ';
+    border-style: solid;
+    border-color: #11F16E;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #11F16E;
+    font-style: normal;
+}
+
 #user-rollover .meta.online .status span {
    color: #00FF00;
    margin-left: 0;
