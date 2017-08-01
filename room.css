@@ -1766,16 +1766,6 @@ action.friend {
 
 /* Rustack */
 
-#user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after, #user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after, #user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after {
-    content: 'CSS';
-    display: inline-block;
-    margin: 0 0 0 5px; 
-    padding: 0 3px;
-    color: #03FF7D;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    font-size: 10px;
-}
-
 #user-rollover.id-29099103 .meta:before {
     content: 'CSS';
     top: 112px;
@@ -1843,7 +1833,7 @@ action.friend {
 #chat [data-cid^='29099103-'] .un:after,
 #user-lists .list .user.id-29099103 .name:after,
 #user-rollover.id-29099103 .username:after {
-    content: 'Room designer';
+    content: 'Designer Helper';
     border-style: solid;
     border-color: #03FF7D;
     border-width: 1px;
@@ -1856,16 +1846,6 @@ action.friend {
 }
 
 /* 🎮𝕩𝕓𝕖𝕒𝕤𝕥🎮 */
-
-#user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after, #user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after, #user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after {
-    content: 'CSS';
-    display: inline-block;
-    margin: 0 0 0 5px; 
-    padding: 0 3px;
-    color: #11F16E;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    font-size: 10px;
-}
 
 #user-rollover.id-29140933 .meta:before {
     content: 'CSS';
