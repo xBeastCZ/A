@@ -1246,7 +1246,7 @@ action.friend {
 }
 
 .communities .grid .cell .meta .join {
-    border: 1px solid #FF0379;
+    border: 1px solid #03FF7D;
     background: #000000;
 }
 
@@ -1620,7 +1620,7 @@ action.friend {
 }
 
 .communities .grid .cell .meta .now-playing {
-   color: #FF0379;
+   color: #03FF7D;
 }
 
 #chat-input-field {
@@ -3839,7 +3839,7 @@ action.friend {
 }
 
 .communities .grid .cell .meta .join {
-    border: 1px solid #FF0379;
+    border: 1px solid #03FF7D;
     background: #000000;
 }
 
@@ -4213,7 +4213,7 @@ action.friend {
 }
 
 .communities .grid .cell .meta .now-playing {
-   color: #FF0379;
+   color: #03FF7D;
 }
 
 #chat-input-field {
