@@ -2549,11 +2549,15 @@ icon-chat-admin {
 }
 
 .user-content .avatars .grid .cell .top {
-	background: url(https://vgy.me/pUtTnW.jpg);
+	background: #000000;
+}
+
+.user-content .grid .cell .top {
+	background: #000000 !important;
 }
 
 .user-content .avatars .cell:hover .top, .user-content .avatars .cell.selected .top {
-	background: url(https://vgy.me/pUtTnW.jpg) !important;
+	background: #000000 !important;
 }
 
 .user-content .avatars .cell:hover {
