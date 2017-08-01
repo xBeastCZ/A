@@ -1,6 +1,6 @@
 {  
    "room":"ALL SONGS CZ/SK",
-   "author":"xBeast",
+   "author":"xBeast & Rustack",
    "icon":null,
    "css":"https://rawgit.com/xBeastCZ/A/master/room.css",
    "rules":{  
@@ -14,30 +14,30 @@
       "forceSmartVote":false
    },
    "ccc":{  
-      "admin":null,
-      "ambassador":null,
-      "host":null,
-      "cohost":null,
-      "manager":null,
-      "bouncer":null,
-      "rdj":null,
-      "subscriber":null,
-      "silversubscriber":null,
-      "friend":null,
-      "user":null
+      "admin": "#63BEFF",
+      "ambassador": "#86FF45",
+      "host": "#03FF7D",
+      "cohost": "#03FF7D",
+      "manager": "#11F16E",
+      "bouncer": "#00DC8F",
+      "rdj": "#00BC64",
+      "subscriber": "#FFE149",
+      "silversubscriber": "#EBEAE5",
+      "friend": null,
+      "user": null
    },
    "images":{  
-      "background": "http://i.imgur.com/fwF6lHa.jpg",
-      "playback":null,
-      "admin":null,
-      "ambassador":null,
-      "host":null,
-      "cohost":null,
-      "manager":null,
-      "bouncer":null,
-      "rdj":null,
-      "subscriber":null,
-      "silversubscriber":null
+      "background": "https://vgy.me/AwfEMV.jpg",
+      "playback": "https://vgy.me/syIqT6.png",
+      "admin": "https://vgy.me/MZJi1A.png",
+      "ambassador": "https://vgy.me/fZww8u.png",
+      "host": "https://vgy.me/9L48ig.png",
+      "cohost": "https://vgy.me/9L48ig.png",
+      "manager": "https://vgy.me/yIhrH3.png",
+      "bouncer": "https://vgy.me/nRKeMG.png",
+      "rdj": "https://vgy.me/g5yT87.png",
+      "subscriber": "https://vgy.me/aR3rT3.png",
+      "silversubscriber": "https://vgy.me/fZhjzR.png"
    },
    "emotes":{  
       "emote_name":null
