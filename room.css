@@ -1,91 +1,453 @@
 /*
-# Room:			ALL SONGS CZSK
-# Author:		xBeast
+# Room:			ALL SONGS CZ/SK
+# Author:		xBeats & Rustack
 # Made for:		https://plug.dj/allsongs-czsk
-# Created:		29.7.2017
-
+# Created:		1.8.2017
+## WARNING ##
+You are NOT allowed using this file without creator's permission!
 */
 
-* {
-	font-family:Tahoma, sans-serif !important;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#user-menu .avatar {
+    background-image: url('https://vgy.me/WhjTxs.jpg') !important;
+}
+
+#vote .crowd-response.disabled .bottom {
+     background: #161616;
+     opacity: 0.3;
 }
 
 .room-background {
-	background:url('http://i.imgur.com/fwF6lHa.jpg') !important;
+  background:url('https://vgy.me/71s2IG.jpg') !important;
 }
 
-/* Icons */
-
-.icon-next-track {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:0 0;
+#vote {
+     left: 730px !important;
 }
 
-.icon-check-circle {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-30px 0;
+#vote .crowd-response {
+     background: #101016;
 }
 
-.icon-check-purple {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-60px 0;
+#vote .crowd-response .top {
+     background: #101016;
 }
 
-.icon-staff {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-90px 0;
+#vote .bottom {
+     width: calc(100% - 1px);
 }
 
-.icon-community-users {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-120px 0;
+.votes-rs {
+     background-color: rgba(0, 0, 0, 0.50) !important;
 }
 
-.icon-ban {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-150px 0;
-}
-
-.icon-grab {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-180px 0;
-}
-
-.icon-meh {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-210px 0;
-}
+/* Woot */
 
 .icon-woot {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-240px 0;
+     -webkit-filter: hue-rotate(130deg);
 }
 
-.icon-woot {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-240px 0;
+#woot .top {
+     color:  #00FF00;
 }
 
-.icon-chat-dj {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-285px -15px;
+#woot .bottom {
+     background: #101016;
+     border-top: 2px solid #00FF00;
+     border-bottom: 2px solid #00FF00;
+     color: #00FF00;
+     box-shadow: 4px 0px 20px -4px #00FF00 inset;
+     width: 100%;
 }
 
-.icon-chat-bouncer {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-300px -15px;
+#woot {
+     box-shadow: 0px 7px 14px -4px #00FF00 !important;
 }
 
-.icon-chat-manager {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-300px 0;
+#woot.selected .bottom {
+     background: rgba(0, 64, 0, 0.4);
 }
 
-.icon-chat-host, .icon-chat-cohost {
-	background:url('http://i.imgur.com/OW2A07t.png');
-	background-position:-315px 0;
+#woot.crowd-response.disabled.active .bottom {
+     background: #2C6129;
 }
 
+#woot-rs .title {
+     background: #101016;
+     border-top: 2px solid #00FF00;
+     border-bottom: 2px solid #00FF00;
+     color: #00FF00;
+     box-shadow: 4px 0px 20px -4px #00FF00 inset;
+     width: 100%;
+}
+
+/* Grab */
+
+#grab .top {
+     color: #8000FF;
+}
+
+#grab .bottom {
+     background: #101016;
+     border-top: 2px solid #8000FF;
+     border-bottom: 2px solid #8000FF;
+     color: #8000FF;
+     box-shadow: 0px 0px 20px -4px #8000FF inset;
+     width: 100%;
+}
+
+#grab {
+     box-shadow: 0px 7px 14px -4px #8000FF !important;
+}
+
+#grab.selected .bottom {
+     background: rgba(64, 0, 128, 0.4);
+}
+
+#grab-rs .title {
+     background: #101016;
+     border-top: 2px solid #8000FF;
+     border-bottom: 2px solid #8000FF;
+     color: #8000FF;
+     box-shadow: 0px 0px 20px -4px #8000FF inset;
+     width: 100%;
+}
+
+/* Meh */
+
+#meh .top {
+     color: #FF0000;
+}
+
+#meh .bottom {
+     background: #101016;
+     border-top: 2px solid #FF0000;
+     border-bottom: 2px solid #FF0000;
+     color: #FF0000;
+     box-shadow: -4px 0px 20px -4px #FF0000 inset;
+     width: 100%;
+}
+
+#meh {
+     box-shadow: 0px 7px 14px -4px #FF0000 !important;
+}
+
+#meh.selected .bottom {
+     background: rgba(128, 0, 0, 0.4);
+}
+
+#meh-rs .title {
+     background: #101016;
+     border-top: 2px solid #FF0000;
+     border-bottom: 2px solid #FF0000;
+     color: #FF0000;
+     box-shadow: -4px 0px 20px -4px #FF0000 inset;
+     width: 100%;
+}
+
+/* Dj-button */
+
+#dj-button {
+     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#dj-button:hover {
+     background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+#dj-button .left {
+     background: rgba(0, 0, 0, 0) !important;
+}
+
+#dj-button {
+     left: 25px !important;
+     right: 960px !important;
+     margin: auto;
+}
+
+.video-only #dj-button {
+     left: 0px !important;
+}
+
+#dj-button {
+     width: 72px !important;
+}
+
+#dj-button span{
+     opacity: 0;
+     width: 120px;
+
+}
+
+#dj-button:hover span {
+     -webkit-transition-delay: 0.3s;
+     transition-delay: 0.3s;
+     opacity: 1.0;
+     width: 148px;
+}
+
+#dj-button:hover {
+     width: 230px !important;
+}
+
+#dj-button.is-locked {
+     cursor: no-drop;
+}
+
+#dj-button.is-full {
+     border: 2px solid #585858;
+}
+
+#dj-button.is-locked {
+     border: 2px solid #585858;
+}
+
+#dj-button.is-leave {
+     background: #101016;
+     border-top: 2px solid #FF0000;
+     color: #FF0000;
+     box-shadow: -4px 0px 18px -4px #FF0000 inset;
+     width: 100%;
+}
+
+#dj-button.is-quit {
+     background: #101016;
+     border-top: 2px solid #FF0000;
+     color: #FF0000;
+     box-shadow: -4px 0px 18px -4px #FF0000 inset;
+     width: 100%;
+}
+
+#dj-button {
+     background: #101016;
+     border-top: 2px solid #00FF00;
+     color: #00FF00;
+     box-shadow: 4px 0px 18px -4px #00FF00 inset;
+     width: 100%;
+}
+
+#dj-button span {
+     pointer-events: none;
+}
+
+#dj-button:hover span {
+     pointer-events: auto;
+}
+
+#dj-button {
+     -webkit-transition:     all 0.3s ease;
+     -moz-transition:        all 0.3s ease;
+     -o-transition:          all 0.3s ease;
+     transition:             all 0.3s ease;
+}
+
+#dj-button span {
+     -webkit-transition:     all 0.3s ease;
+     -moz-transition:        all 0.3s ease;
+     -o-transition:          all 0.3s ease;
+     transition:             all 0.3s ease;
+}
+
+#dj-button.is-leave {
+    border-bottom: 1px solid #FF0000;
+    box-shadow: 0px 7px 14px -6px #FF0000;
+}
+
+#dj-button.is-quit {
+    border-bottom: 2px solid #FF0000;
+    box-shadow: 0px 7px 14px -6px #FF0000;
+}
+
+#dj-button {
+    background: #181821;
+    border-bottom: 2px solid #00FF00;
+    box-shadow: 0px 7px 14px -6px #00FF00;
+}
+
+/* Pop-menu */
+
+.pop-menu.grab {
+     background: transparent;
+}
+
+.pop-menu.grab .bar {
+     background: #101016;
+     border-top: 1px solid #8000FF;
+     border-bottom: 1px solid #8000FF;
+     color: #8000FF;
+     box-shadow: 0px 0px 18px -4px #8000FF inset;
+     width: 100%;
+}
+
+.pop-menu .bar .bar-divider {
+     background: #AAA;
+}
+
+.pop-menu.grab .menu::-webkit-scrollbar-thumb {
+     background: #101016;
+     border-top: 1px solid #8000FF;
+     border-bottom: 1px solid #8000FF;
+     color: #8000FF;
+     box-shadow: 0px 0px 18px -4px #8000FF inset;
+     width: 100%;
+}
+
+.pop-menu.grab .menu ul {
+     background: rgba(0,0,0,.5)
+}
+
+.pop-menu.grab .menu ul li:hover {
+     background: #101016;
+     border-top: 1px solid #8000FF;
+     border-bottom: 1px solid #8000FF;
+     color: #8000FF;
+     box-shadow: 0px 0px 18px -4px #8000FF inset;
+     width: 100%;
+}
+
+.pop-menu.grab .menu ul li.create:hover {
+     background: #000000;
+     border-top: 1px solid #03FF7D;
+     border-bottom: 1px solid #03FF7D;
+     color: #03FF7D;
+     box-shadow: 0px 0px 18px -4px #03FF7D inset;
+     width: 100%;
+}
+
+/* Room */
+
+#room-host {
+          color: #808691 !important;
+}
+
+#now-playing-dj {
+          color: #808691 !important;
+}
+
+#room-bar * {
+          font-weight: lighter !important;
+}
+
+#now-playing-bar * {
+          font-weight: lighter !important;
+}
+
+#room-bar span {
+          font-size: 20px !important;
+}
+
+#now-playing-dj span {
+          font-size: 20px !important;
+}
+
+#now-playing-media span {
+          font-size: 20px !important;
+}
+
+#room-bar:hover > #room-name {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#room-bar > #room-host {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#now-playing-bar > #now-playing-dj {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#now-playing-bar:hover > #now-playing-media {
+         opacity: 0 !important;
+         transition: opacity 0.25s !important;
+}
+
+#room-bar > #room-name {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#room-bar:hover > #room-host {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#now-playing-bar:hover > #now-playing-dj {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#now-playing-bar > #now-playing-media {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#room-bar > #room-name {
+         margin-top: 7px !important;
+}
+
+#now-playing-bar > #now-playing-media {
+         margin-top: 7px !important;
+}
+
+#room-bar > #room-host {
+         margin-top: -15px !important;
+}
+
+#now-playing-bar > #now-playing-dj {
+         margin-top: -15px !important;
+}
+
+#footer #your-next-media {
+         transition: all .5s ease-in-out;
+}
+
+#footer #your-active-playlist {
+         transition: all .5s ease-in-out;
+}
+
+#footer #your-next-media {
+         opacity: 1;
+}
+
+#footer .bar-button:hover #your-active-playlist {
+         opacity: 1;
+}
+
+#footer #your-active-playlist {
+         opacity: 0;
+}
+
+#footer .chevron {
+         opacity: 0;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-next-media {
+         opacity: 0;
+}
+
+#footer #your-next-media {
+         left: 0px !important; top: 0;
+}
+
+#footer #your-active-playlist {
+         top: -54px;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-active-playlist {
+         top: 0px;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-next-media {
+         top: 54px;
+}
 
 /* Header */
 
@@ -93,134 +455,163 @@
 	background-color:#000;
 }
 
-/* Plug Menu */
-
-#app-menu {
-	background-color:rgb(43,87,154);
-}
-
-#app-menu:hover {
-	background-color:rgb(70,123,203);
-}
-
 /* Room Bar */
 
 .dark-label {
-	color:#fff;
-	font-weight:bold;
-}
-
-.favorite i:hover, .favorite.selected i {
-background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a25fd4a1f0aaba5a4cd.png');
-	background-position: -35px -280px !important;
+	color: #fff;
+	font-weight: bold;
 }
 
 /* Now Playing Bar */
 
-#history-button, #rs-skip-button {
-	transition:0.3s;
-	background-color:#000 !important;
+#history-button {
+	transition: 0.3s;
+	background-color: #000 !important;
 }
 
-#history-button:hover , #rs-skip-button:hover {
-	box-shadow: inset 0 0 40px #4aaee7 !important;
+#rs-skip-button {
+	transition: 0.3s;
+	background-color: #000 !important;
+}
+
+#history-button:hover {
+	box-shadow: inset 0 0 40px #03FF7D !important;
+}
+
+#rs-skip-button:hover {
+	box-shadow: inset 0 0 40px #11F16E !important;
 }
 
 /* Panel Bar */
 
-#header-panel-bar {
-	background-color:#000 !important;
-}
-
-#chat-button, #users-button, #waitlist-button, #friends-button, #rcs-appright-button {
+#chat-button {
 	transition:0.3s;
 }
 
-#chat-button:hover, #users-button:hover, #waitlist-button:hover, #friends-button:hover, #rcs-appright-button:hover {
-	box-shadow: inset 0 0 40px #4aaee7 !important;
+#users-button {
+	transition:0.3s;
 }
 
-.header-panel-button.selected {
-	background-color:rgb(43,87,154);
+#waitlist-button {
+	transition:0.3s;
 }
 
-#playback .background {
-	background: url('') !important;
-	width: 700px !important;
-	height: 270px !important;
-	left:-90px;
+#friends-button {
+	transition:0.3s;
 }
 
-#playback .background img {
-	display: none;
+#rcs-appright-button {
+	transition:0.3s;
 }
 
+#chat-button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+}
+
+#users-button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+}
+
+#waitlist-button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+}
+
+#friends-button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+}
+
+#rcs-appright-button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+}
 
 /* User List */
 
 .app-right .friends .header {
-	background:#000;
-	transition:0.3s;
+	transition: 0.3s;
 }
 
 .app-right .friends .header:hover {
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
-}
-
-.app-right .friends .header i {
-	background:rgb(70,123,203);
+	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
 }
 
 .app-right .friends .list .row:hover {
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
-	border-radius:10px;
+	box-shadow: inset 0 0 30px rgb(0, 188, 100) !important;
+	border-radius: 10px;
 }
 
 .app-right .friends .list .row.clickable .room:hover {
-	text-decoration:none;
-	color:#fff;
+	text-decoration: none;
+	color: #fff;
 }
 
 .button.room.selected {
-	box-shadow: inset 0 0 20px #4aaee7 !important;
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
 	border-bottom: 0px !important;
 }
 
 .button.staff.selected {
-	box-shadow: inset 0 0 20px #4aaee7 !important;
+	box-shadow: inset 0 0 15px rgb(128, 0, 255) !important;
 	border-bottom: 0px !important;
 }
 
-.button.bans.selected, .button.mutes.selected, .button.ignored.selected {
-	box-shadow: inset 0 0 20px #ff0000 !important;
+.button.bans.selected {
+	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+#user-lists .header .button.waitlist-bans.selected {
+	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.mutes.selected {
+	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.ignored.selected {
+	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
 	border-bottom: 0px !important;
 }
 
 /* Groups */
 
-.group.host {color:#ff0083e;}
-.group.manager {color:#ff0000;}
-.group.bouncer {color:#26ff00;}
-.group.dj {color:#0083ff;}
+.group.host {
+       color: #03FF7D;
+}
+
+.group.manager {
+       color: #11F16E;
+}
+
+.group.bouncer {
+       color: #00DC8F;
+}
+
+.group.dj {
+       color: #00BC64;
+}
 
 /* Bans */
 
-#user-lists .list.bans .user .label, #user-lists .list.mutes .user .label {color:#ff0000;}
-
-#dialog-confirm {
-	background-color:rgb(43,87,154) !important;
+#user-lists .list.bans .user .label {
+       color: #ff0000;
 }
 
-.dialog-body {
-	background-color:#000 !important;
+#user-lists .list.mutes .user .label {
+       color: #ff0000;
+}
+
+#dialog-confirm {
+	background-color: rgb(0, 220, 143) !important;
 }
 
 .button.cancel, .button.submit {
-	color:#fff !important;
+	color: #fff !important;
 }
 
 .button.submit {
-	background:rgb(43,87,154) !important;
+	background: rgb(0, 188, 100) !important;
 }
 
 /* Chat */
@@ -234,217 +625,295 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 .cm.welcome {
-	color:rgb(70,123,203) !important;
-	background-color:#282c35 !important;
+	color: rgb(3, 255, 125) !important;
 }
 
 .rs-log-user-friend-join {
-	color:#009a00 !important;
-	border-left: 3px solid #009a00 !important;
-	background:#000;
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
 }
 
 .rs-log-user-leave {
-	color:#ff0000 !important;
-	border-left: 3px solid #ff0000 !important;
-	background:#000;
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
 }
 
-#chat .from.dj .un, #chat .from.staff .un {
-	color:#4aaee7;
+#chat .rs-log-user-staff-join {
+	color: #BB01FF !important;
+	border-left: 3px solid #BB01FF !important;
+}
+
+#chat .rs-log-user-join {
+	color: #00FFFF !important;
+	border-left: 3px solid #00FFFF !important;
+}
+
+#chat .from .un {
+    color: #0080FF;
+}
+
+#chat .from.admin .un {
+	color: #63BEFF;
+}
+
+#chat .from.ambassador .un {
+	color: #86FF45;
+}
+
+#chat .from.host .un {
+	color: #03FF7D;
+}
+
+#chat .from.cohost .un {
+	color: #03FF7D;
+}
+
+#chat .from.manager .un {
+	color: #11F16E;
+}
+
+#chat .from.bouncer .un {
+	color: #00DC8F;
+}
+
+#chat .from.dj .un {
+	color: #00BC64;
+}
+
+#chat .from.subscriber .un {
+	color: #FFE149;
+}
+
+#chat .from.subscriber.silver .un {
+	color: #EBEAE5;
 }
 
 .cm.moderation {
-	color:#4aaee7 !important;
-}
-
-#chat .name {
-	color:#4aaee7 !important;
-	font-weight:bold;
+	color: #03FF7D !important;
 }
 
 #chat .mention {
-	color:#fff !important;
-	border-left:3px solid #fff !important;
-	background:#000 !important;
+	color: #fff !important;
+	border-left: 3px solid #fff !important;
 }
 
 #chat .emote {
-	border-left:3px solid green !important;
-	background:#111 !important;
+	border-left: 3px solid green !important;
+	background: #111 !important;
 }
 
 #chat .emote .text {
-	color:green !important;
+	color: white !important;
+}
+
+#chat .rs-log-yellow {
+	color: #FFFF00 !important;
+	border-left: 3px solid #FFFF00 !important;
 }
 
 #user-rollover {
 	background:rgba(0,0,0,0.8) !important;
+	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
 }
 
 .thumb .background {
 	background:rgba(0,0,0,0.8) !important;
 }
 
-#user-rollover .info {
-	background:rgba(43,87,154,0.4) !important;
-}
-
 #user-rollover .info .level .label {
-	color:#fff !important;
+	color: #fff !important;
 }
 
-#user-rollover.is-staff .info .role span {
-	color:#fff !important;
+.action.mention {
+	transition:0.5s;
 }
 
-#user-rollover {
-	border-radius:10px 10px 0px 0px;
+action.friend {
+	transition:0.5s;
 }
 
-.action.mention, .action.friend, .action.gift, .action.ignore, .action.mod-dj, .action.mod-staff, .action.mod-mute, .action.mod-ban, .action.skip {
-	transition:0.3s;
+.action.gift {
+	transition:0.5s;
 }
 
-.action.mention:hover, .action.gift:hover, .action.friend:hover, .action.mod-dj:hover, .action.skip:hover {
-	box-shadow: inset 0 0 30px #4aaee7 !important;
-	background:rgba(0,0,0,0.8) !important
+.action.ignore {
+	transition:0.5s;
 }
 
-.action.mod-staff:hover {
-	box-shadow: inset 0 0 30px #4aaee7 !important;
-	background:rgba(0,0,0,0.8) !important
+.action.mod-dj {
+	transition:0.5s;
 }
 
-.action.ignore:hover, .action.mod-mute:hover, .action.mod-ban:hover {
-	box-shadow: inset 0 0 30px #ff0000 !important;
-	background:rgba(0,0,0,0.8) !important
+.action.mod-staff {
+	transition:0.5s;
+}
+
+.action.mod-mute {
+	transition:0.5s;
+}
+
+.action.mod-ban {
+	transition:0.5s;
+}
+
+.action.skip {
+	transition:0.5s;
+}
+
+.action.mod-waitlist-ban {
+	transition:0.5s;
 }
 
 .action.giftsub {
-	transition:0.3s;
+	transition:0.5s;
+}
+
+.action.mention:hover {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	background: transparent !important;
+}
+
+.action.friend:hover {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	background: transparent !important;
+}
+
+.action.mod-dj:hover {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	background: transparent !important;
+}
+
+.action.skip:hover {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	background: transparent !important;
+}
+
+.action.gift:hover {
+	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	background: transparent !important;
+}
+
+.action.mod-staff:hover {
+	box-shadow: inset 0 0 20px rgb(128, 0, 255) !important;
+	background: transparent !important;
+}
+
+.action.ignore:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-mute:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-ban:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.actions .mod-waitlist-ban:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
 }
 
 .action.giftsub:hover {
-	box-shadow: inset 0 0 30px #c59840 !important;
-	background:rgba(0,0,0,0.8) !important
+	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	background: transparent !important;
+}
+
+#user-rollover.can-gift .action.gift:hover {
+	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	background: transparent !important;
 }
 
 /* Footer */
 
-#footer {
-	background:rgba(43,87,154,0.6) !important;
-}
-
 #playlist-button {
-	background:rgb(43,87,154) !important;
+	background: rgb(0, 188, 100) !important;
 }
 
 #playlist-button:hover {
-	background:rgb(70,123,203) !important;
+	background: rgb(3, 255, 125) !important;
 }
 
-.inventory.button:hover , .badge.button:hover, .store.button:hover, .profile.button:hover, .settings.button:hover  {
-	background:rgb(70,123,203) !important;
+.inventory.button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+        background: rgb(0, 0, 0) !important;
 }
 
-#dj-button .left, #dj-button.is-leave .left, #dj-button.is-quit .left, #dj-button.is-join .left {
-	background:rgb(43,87,154) !important;
+.badge.button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+        background: rgb(0, 0, 0) !important;
 }
 
-/* Woot */
-
-#woot .bottom, #woot.selected {
-	background:#009a00 !important;
+.store.button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+        background: rgb(0, 0, 0) !important;
 }
 
-#woot-rs, .title.woot {
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
+.profile.button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+        background: rgb(0, 0, 0) !important;
 }
 
-.title.woot {
-	background:#009a00 !important;
-}
-
-#woot.crowd-response.disabled.active .bottom {
-	background:#009a00 !important;
-}
-
-
-#woot-rs-list {
-	background:rgba(16,17,21,0.8);
-}
-
-/* Grab */
-
-#grab .bottom, #grab.selected {
-	background:#b300b3 !important;
-}
-
-#grab-rs, .title.grab {
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-}
-
-.title.grab {
-	background:#b300b3 !important;
-}
-
-#grab.crowd-response.disabled.active .bottom {
-	background:#b300b3 !important;
-}
-
-
-#grab-rs-list {
-	background:rgba(16,17,21,0.8);
-}
-
-/* Meh */
-
-#meh .bottom, #meh.selected {
-	background:#ff0000 !important;
-}
-
-#meh-rs, .title.meh {
-	border-top-left-radius:5px;
-	border-top-right-radius:5px;
-}
-
-.title.meh {
-	background:#ff0000 !important;
-}
-
-#meh.crowd-response.disabled.active .bottom {
-	background:#ff0000 !important;
-}
-
-
-#meh-rs-list {
-	background:rgba(16,17,21,0.8);
-}
-
-/* Notifications */
-
-#toast-notifications .notification .left {
-	background: rgb(43,87,154) !important;
+.settings.button:hover {
+	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+        background: rgb(0, 0, 0) !important;
 }
 
 /* Footer */
+
+#footer  {
+	background-color:#000;
+}
 
 #footer-user .info {
 	top: -60px;
 	height: 60px;
 	background: rgba(0,0,0,0.8) !important;
-	border-top: 1px solid rgb(70,123,203) !important;
-	border-left: 1px solid rgb(70,123,203) !important;
-	border-right: 1px solid rgb(70,123,203) !important;
+	border-top: 1px solid rgb(0, 220, 143) !important;
+	border-left: 1px solid rgb(0, 220, 143) !important;
+	border-right: 1px solid rgb(0, 220, 143) !important;
 	border-radius: 5px 5px 0px 0px;
 	left: -2px;
 }
 
-.is-dj .name, .is-staff .name {
-	color: rgb(70,123,203) !important;
+.is-admin .name {
+	color: #63BEFF;
+}
+
+.is-ambassador .name {
+	color: #86FF45;
+}
+
+.is-host .name {
+	color: #03FF7D;
+}
+
+.is-cohost .name {
+	color: #03FF7D;
+}
+
+.is-manager .name {
+	color: #11F16E;
+}
+
+.is-bouncer .name {
+	color: #00DC8F;
+}
+
+.is-dj .name {
+	color: #00BC64;
+}
+
+.is-subscriber .name {
+	color: #FFE149;
+}
+
+.is-subscriber.silver .name {
+	color: #EBEAE5;
 }
 
 #footer-user .info .meta div.bar {
@@ -454,64 +923,62 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 #footer-user .info .bar .progress {
 	background: #000;
 	border-radius: 10px;
-	box-shadow: inset 0 0 10px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
 }
 
-#footer-user.showing .back, .is-guest #footer-user .signup {
-	background-color:rgb(43,87,154) !important;
+#footer-user.showing .back  {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
 }
 
-#footer-user.showing .back:hover, .is-guest #footer-user .signup:hover {
-	background-color:rgb(70,123,203) !important;
+.is-guest #footer-user .signup {
+	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+}
+
+#footer-user.showing .back:hover {
+	box-shadow: inset 0 0 20px rgb(17, 241, 110) !important;
+}
+
+.is-guest #footer-user .signup:hover {
+	box-shadow: inset 0 0 20px rgb(17, 241, 110) !important;
 }
 
 /* User Menu */
-
-#user-menu {
-	background:#000;
-}
 
 #user-menu .item {
 	transition:0.3s;
 }
 
 #user-menu .item:hover {
-	box-shadow: inset 0 0 10px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
 }
 
 #user-menu .item.selected {
-	background:#000;
-	border-left:3px solid rgb(70,123,203);
-}
-
-#user-menu .item.notify .count {
-	background:#000;
-	box-shadow: inset 0 0 20px rgb(70,123,203) !important;
-	padding:5px;
-	margin:-5px 5px 0px 0px;
+	border-left:3px solid rgb(3, 255, 125);
 }
 
 #friends-button.notify .request-count {
-	background:#000;
-	box-shadow: inset 0 0 20px rgb(70,123,203) !important;
-	padding:5px;
-	z-index:2;
+  background:rgba(3, 255, 125,.4);
+  box-shadow:inset 0 0 0 1px #03FF7D;
+}
+
+#user-menu .item.notify .count {
+  background:rgba(3, 255, 125,.4);
+  box-shadow:inset 0 0 0 1px #03FF7D;
+}
+
+#user-friends .tab-menu button .count {
+  background:rgba(3, 255, 125,.4);
+  box-shadow:inset 0 0 0 1px #03FF7D;
+}
+
+#footer-user .buttons .button.notify .count {
+  background:rgba(3, 255, 125,.4);
+  box-shadow:inset 0 0 0 1px #03FF7D;
 }
 
 #user-friends .tab-menu.has-requests button .count {
-	background:#000;
-	box-shadow: inset 0 0 20px rgb(70,123,203) !important;
-	padding:5px;
-	z-index:2;
-	margin:-5px 0px 0px 10px;
-}
-#user-menu .avatar {
-    background: url(https://i.imgur.com/t73rJ7o.jpg) no-repeat!important;
-    background-size: cover!important
-}
-
-#user-menu .item.selected {
-    background: linear-gradient(to top,#0d3944 0,#4a928a 100%)!important
+  background:rgba(3, 255, 125,.4);
+  box-shadow:inset 0 0 0 1px #03FF7D;
 }
 
 /* Tab Menu */
@@ -522,76 +989,51 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 .tab-menu button:hover {
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(3, 255, 125) !important;
 	background:#000;
 }
 
 .tab-menu button.selected {
 	background:#000;
-	border-bottom:3px solid rgb(70,123,203);
+	border-bottom:3px solid rgb(17, 241, 110);
 }
 
 .dropdown {
 	background:#000;
-	box-shadow:inset 0 0 20px 0 rgb(43,87,154) !important;
+	box-shadow:inset 0 0 20px 0 rgb(0, 220, 143) !important;
 }
 
 .dropdown dt {
-	box-shadow:inset -40px 0 0 0 rgb(43,87,154) !important;
+	box-shadow:inset -40px 0 0 0 rgb(0, 188, 110) !important;
 }
 
 .dropdown dd {
 	background:#000;
-	box-shadow:inset 0 0 20px 0 rgb(43,87,154) !important;
+	box-shadow:inset 0 0 20px 0 rgb(3, 255, 125) !important;
 }
 
 .dropdown dd .row:hover {
-	background:rgb(43,87,154);
+	background:rgb(17, 241, 110);
 }
 
 ::-webkit-scrollbar-thumb {
-	background:rgb(43,87,154) !important;
+	background:rgb(0, 220, 143) !important;
 }
 
 .jspDrag {
-	background:rgb(43,87,154) !important;
+	background:rgb(0, 188, 110) !important;
 }
 
-.jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
-	background:rgb(70,123,203) !important;
+.jspDrag:hover {
+	background:rgb(3, 255, 125) !important;
 }
 
-.user-content .grid .cell .top {
-	background: rgba(0,0,0,1) !important;
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(83%, rgba(55,127,166,1)), color-stop(100%, rgba(0,0,0,1))) !important;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 ) !important;
+.jspTrack .jspActive {
+	background:rgb(3, 255, 125) !important;
 }
 
-.user-content .grid .cell .top:hover {
-	background: rgba(0,0,0,1) !important;
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(53,168,230,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(83%, rgba(53,168,230,1)), color-stop(100%, rgba(0,0,0,1))) !important;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(53,168,230,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(53,168,230,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(53,168,230,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(53,168,230,1) 83%, rgba(0,0,0,1) 100%) !important;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 ) !important;
-}
-
-.user-content .grid .cell, .user-content.communities .grid .cell {
-	background: rgba(0,0,0,1) !important;
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(83%, rgba(55,127,166,1)), color-stop(100%, rgba(0,0,0,1))) !important;
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(55,127,166,1) 83%, rgba(0,0,0,1) 100%) !important;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 ) !important;
+.jspTrack .jspHover {
+	background:rgb(3, 255, 125) !important;
 }
 
 #user-friends .list .row .buttons button {
@@ -599,28 +1041,26 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 #user-friends .list .row .buttons button.positive:hover {
-	background:rgb(70,123,203) !important;
-	border-radius:0px 10px 0px 0px;
+	background: transparent !important;
+        box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
 }
 
 #user-friends .list .row .buttons button.negative:hover {
-	background:#ff0000 !important;
-	border-radius:0px 0px 10px 0px;
+	background: transparent !important;
+        box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
 }
 
 #user-friends .list .row {
-	box-shadow:inset 0 0 10px 0 rgb(70,123,203);
-	background: #000;
+	box-shadow:inset 0 0 10px 0 rgb(3, 255, 125);
 	border-radius:10px;
 }
 
 #user-friends .list .row:hover {
-	box-shadow:inset 0 0 30px 0 rgb(70,123,203);
+	box-shadow:inset 0 0 30px 0 rgb(17, 241, 110);
 }
 
 #user-view .user-content {
-	background:#000;
-	border-left:1px solid rgb(43,87,154) !important;
+	border-left:1px solid rgb(0, 220, 143) !important;
 }
 
 .user-content.profile .meta .joined {
@@ -628,7 +1068,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 .user-content .header {
-	box-shadow:inset 0 1px 0 0 rgb(70,123,203);
+	box-shadow:inset 0 1px 0 0 rgb(0, 188, 110);
 }
 
 .user-content .header span {
@@ -642,53 +1082,139 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 .experience .xp .bar .progress {
 	background: #000;
 	border-radius: 10px;
-	box-shadow: inset 0 0 10px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
 }
 
-.user-content.profile .meta.is-staff .role span {
-	color:rgb(70,123,203);
+.user-content.profile .meta.is-admin .role span {
+	color:rgb(99, 190, 255);
 }
 
+.user-content.profile .meta.is-ambassador .role span {
+	color:rgb(134, 255, 69);
+}
+
+.user-content.profile .meta.is-host .role span {
+	color:rgb(3, 255, 125);
+}
+
+.user-content.profile .meta.is-cohost .role span {
+	color:rgb(3, 255, 125);
+}
+
+.user-content.profile .meta.is-manager .role span {
+	color:rgb(17, 241, 110);
+}
+
+.user-content.profile .meta.is-bouncer .role span {
+	color:rgb(0, 220, 143);
+}
+
+.user-content.profile .meta.is-dj .role span {
+	color:rgb(0, 188, 100);
+}
+
+.user-content.profile .meta.is-subscriber .role span {
+	color:rgb(255, 225, 73);
+}
+
+.user-content.profile .meta.is-subscriber.silver .role span {
+	color:rgb(235, 234, 229);
+}
 
 .user-content.profile .points .subscribe-button {
 	transition:0.3s;
 	border-radius:5px;
 	background:#000;
-	box-shadow: inset 0 0 2px #c59840 !important;
+	box-shadow: inset 0 0 2px #FFE149 !important;
 }
 
 .user-content.profile .points .subscribe-button:hover {
-	box-shadow: inset 0 0 30px #c59840 !important;
+	box-shadow: inset 0 0 15px rgb(255, 225, 73) !important;
 	background:rgba(0,0,0,0.8) !important
 }
 
 
 .experience .levels .level.earned.ep {
 	background:#000 !important;
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
 }
 
 .experience .levels .level {
 	background: #000;
-	box-shadow: inset 0 0 2px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 5px rgb(17, 241, 110) !important;
 	transition:0.3s;
 }
 
 .experience .levels .level:hover {
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
 }
 
 .experience .levels .level .label {
-	background: rgb(43,87,154) !important;
+	background: rgb(188, 0, 88) !important;
+        box-shadow: inset 0 0 5px rgb(17, 241, 110) !important;
 }
 
-.icon-sunburst {
-	background-position: 0px 0px;
-	background: rgb(43,87,154) !important;
-	z-index: -1 !important;
+.experience .levels .level .label i.icon-sunburst {
+    background: #000000;
+    width: 90px;
+    border: 2px solid #00BC64;
+    border-radius: 10px 10px 0px 0px;
+    left: -2px;
+    margin-top: -2px;
 }
 
-.arrow-down, .avi, .icon, .spinner, .thumb.large, .thumb.medium, .thumb.small {
+.experience .levels .level .value {
+    margin-top: 0px;
+}
+
+.experience .levels {
+    margin-top: 20px;
+}
+
+.experience .xp .next-level {
+    color: #FFFFFF;
+}
+
+.icon-level-avatar {
+    z-index: 1;
+}
+
+.icon-level-ep {
+    z-index: 1;
+}
+
+.icon-level-community {
+    z-index: 1;
+}
+
+.icon-level-profile {
+    z-index: 1;
+}
+
+.arrow-down {
+	z-index: 2 !important;
+}
+
+.avi {
+	z-index: 2 !important;
+}
+
+.icon {
+	z-index: 2 !important;
+}
+ 
+.spinner {
+	z-index: 2 !important;
+}
+
+.thumb.large {
+	z-index: 2 !important;
+}
+
+.thumb.medium {
+	z-index: 2 !important;
+}
+
+.thumb.small {
 	z-index: 2 !important;
 }
 
@@ -709,74 +1235,83 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	background: #000;
 }
 
+.communities .grid .cell {
+    background: #000000;
+}
+
+.communities .grid .cell .meta .join {
+    border: 1px solid #FF0379;
+    background: #000000;
+}
+
 .communities .grid .cell .favorite {
-	background: rgb(43,87,154) !important;
+    background: #000000;
+}
+
+.communities .grid .cell .meta .room {
+    text-align: center;
+    color: #03FF7D;
+}
+
+.communities .grid .cell .meta .host {
+    text-align: center;
+    color: #03FF7D;
+}
+
+.communities .grid .cell:hover>.meta {
+    background: rgba(0, 0, 0,.9);
+}
+
+.user-content.communities .grid .cell {
+    background: #000000;
+}
+
+.user-content .grid .cell {
+    background: #000000;
 }
 
 .user-content.communities button {
-	background: rgb(43,87,154) !important;
+	background: rgb(17, 241, 110) !important;
 }
 
 .user-content.communities button:hover {
-	background: rgb(70,123,203) !important;
+	background: rgb(0, 220, 143) !important;
 }
 
 /* Room */
 
-#room-settings-menu {
-	background: #000;
-}
-
 #room-settings .general-settings {
-	background: #000;
-	border-left:1px solid rgb(70,123,203) !important;
+	border-left:1px solid rgb(0, 188, 100) !important;
 }
 
 #room-settings .general-settings .option.enabled>button.off {
-	background:#282c35 !important;
+	background: #000000 !important;
 }
 
 #room-settings .general-settings .option button.off {
-	background: rgb(70,123,203) !important;
+	background: rgb(17, 241, 110) !important;
 }
 
 #room-settings .general-settings .option.enabled>button.on {
-	background:#ff0000 !important;
+	background: #00DC8F !important;
 }
 
 #room-settings-menu .item.selected {
-	background: rgb(70,123,203) !important;
+	background: rgb(0, 188, 100) !important;
 }
 
 /* Playlist */
-
-#playlist-panel {
-	background: #000;
-}
-
-#playlist-menu {
-	background: rgba(43,87,154,0.6) !important;
-}
-
-#search {
-	background: rgba(43,87,154,0.6) !important;
-}
 
 #playlist-menu .title {
 	color:#fff;
 }
 
-.jspContainer {
-	background: #000;
-}
-
 #playlist-menu .menu .row .count {
-	color:rgb(70,123,203);
+	color:rgb(3, 255, 125);
 }
 
 #playlist-menu .menu .row.selected {
-	background: #000;
-	border-left: 3px solid rgb(70,123,203);
+	border-left: 3px solid rgb(17, 241, 110);
 }
 
 #playlist-menu .menu .row {
@@ -784,7 +1319,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 #playlist-menu .menu .row:hover {
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
 }
 
 #playlist-activate-button.active {
@@ -797,7 +1332,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 
 #playlist-activate-button:hover {
 	background: #000;
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(0, 188, 100) !important;
 }
 
 #playlist-activate-button span {
@@ -810,7 +1345,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 
 #playlist-edit-button:hover {
 	background: #000;
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(3, 255, 125) !important;
 }
 
 #playlist-shuffle-button {
@@ -833,16 +1368,16 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 
 #playlist-import, #playlist-create {
 	background: #000;
-	box-shadow: inset 0 0 10px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 10px rgb(17, 241, 110) !important;
 }
 
 #playlist-import:hover, #playlist-create:hover {
 	background: #000;
-	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
 }
 
 .dialog {
-	background: rgb(43,87,154) !important;
+	background: rgb(0, 188, 110) !important;
 }
 
 .dialog-frame .button.cancel:hover {
@@ -854,332 +1389,1205 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 }
 
 .media-list .row.now-playing {
-	background: rgb(70,123,203) !important;
-	border-bottom:2px solid rgb(43,87,154) !important;
+	background: rgb(0, 220, 143) !important;
+	border-bottom:2px solid rgb(0, 188, 110) !important;
 }
 
 .media-list .row.selected {
-	background: rgba(70,123,203,0.4) !important;
-	border:2px solid rgb(43,87,154) !important;
+	background: rgba(0, 220, 143, 0.4) !important;
+	border:2px solid rgb(0, 88, 188) !important;
 }
 
 .media-list .row:hover {
-	background: rgba(70,123,203,0.2) !important;
+	background: rgba(3, 255, 125, 0.2) !important;
 }
 
 .media-list .actions {
-	background: rgb(70,123,203) !important;
+	background: rgb(17, 241, 110) !important;
 }
 
 .drag-row-line {
-	background: rgb(70,123,203) !important;
+	background: rgb(0, 220, 143) !important;
 }
 
 #playlist-create.drag-over {
-	background: rgb(43,87,154) !important;
+	background: rgb(0, 88, 188) !important;
 }
 
 #playlist-create.drag-over:hover {
-	background: rgb(70,123,203) !important;
+	background: rgb(3, 255, 125) !important;
 }
 
 #news, #news .label, #news .list, .drag-media-box, .drag-media-label, .drag-row-line {
-	background: rgb(70,123,203) !important;
+	background: rgb(17, 241, 110) !important;
 }
 
-/* xBeast */
+/* ▬▬▬▬▬[ TRANSPARENCY ]▬▬▬▬▬ */
 
-*/
+#history-button {
+      background: transparent !important;
+}
 
-/* #chat [data-cid^="29140933-"].emote {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } 28463273
-    
-    f #chat [data-cid^="29140933-"].message {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } */
+#rs-skip-button  {
+      background: transparent !important;
+}
 
-#chat-messages [data-cid^="29140933-"] .timestamp,
-#chat [data-cid^="29140933-"].emote .timestamp {
-    color: #FFBE5B !important;
+#waitlist .user {
+      background: transparent !important;
+}
+
+.badge-box {
+      background: transparent !important;
+}
+
+.thumb .background {
+      background: transparent !important;
+}
+
+#chat .cm:nth-child(2n+1) {
+      background: transparent !important;
+}
+
+#user-lists .list .user:hover {
+      background: transparent !important;
+}
+
+#user-friends .list .row {
+      background: transparent !important;
+}
+
+.app-right .friends .header {
+    background: transparent !important;
+}
+
+.app-right {
+      background: rgba(0,0,0,.65) !important;
+}
+
+.app-right .friends {
+      background: rgba(0,0,0,.65) !important;
+}
+
+#dashboard {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer-user .menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer .info {
+      background: rgba(0,0,0,.65) !important;
+}
+
+#app-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-rollover {
+      background: rgba(0, 0, 0, 0.65) !important;
+}
+
+#user-rollover .info {
+      background: transparent !important;
+}
+
+#room-settings-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-menu .menu .row.selected {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-menu .item.selected {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#room-settings {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-panel {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#app-menu .button {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+.app-header {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#chat-input {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer-user .back {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-menu{
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-view {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer #iosbadge-menu {
+    display: none !important;
+}
+
+#footer #androidbadge-menu {
+    display: none !important;
+}
+
+.tab-menu button:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.tab-menu button {
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    background: #000000;
+    -webkit-box-shadow: inset 1px 0 0 0 #000000;
+    -moz-box-shadow: inset 1px 0 0 0 #000000;
+    box-shadow: inset 1px 0 0 0 #000000;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}
+
+#footer-user .buttons .button.settings .icon {
+	transition:0.5s;
+}
+
+#footer-user .buttons .button.settings:hover .icon {
+	transform: rotate(360deg);
+}
+
+#history-button i.icon.icon-history-white:hover {
+  -moz-transform : rotate(360deg);
+  -ms-transform : rotate(360deg);
+  -o-transform : rotate(360deg);
+  -webkit-transform : rotate(360deg);
+  transform : rotate(360deg);
+}
+
+.app-right .friends .list .row.is-offline .name span {
+   color: #FFFFFF;
+}
+
+.dropdown dd .row {
+   color: #FFFFFF;
+}
+
+#user-settings .container .item span {
+   color: #FFFFFF;
+}
+
+#user-settings .container .cap .title {
+   color: #FFFFFF;
+}
+
+#user-settings .container .cap .value {
+   color: #FFFFFF;
+}
+
+.communities .grid .cell .meta .now-playing {
+   color: #FF0379;
+}
+
+#chat-input-field {
+   color: #03FF7D;
+}
+
+.communities .grid .cell .population div.guests span {
+   color: #FFFFFF;
+}
+
+#user-friends .count-box .total {
+   color: #FFFFFF;
+}
+
+#user-friends .list .row .joined {
+   color: #FFFFFF;
+}
+
+#user-friends .list .row .level .label {
+   color: #FFFFFF;
+}
+
+.dropdown dt span.level {
+   color: #FFFFFF;
+}
+
+.user-content.profile .meta .link .label {
+   color: #FFFFFF;
+}
+
+#room-settings .general-settings .panel .title {
+   color: #FFFFFF;
+}
+
+#room-settings .general-settings .edit span {
+   color: #FFFFFF;
+}
+
+#room-settings .general-settings .option .title {
+   color: #FFFFFF;
+}
+
+.filter-or {
+   color: #FFFFFF;
+}
+
+#youtube-input-field {
+   color: #FFFFFF;
+}
+
+#app-menu .list .rcsunload span {
+   color: #FFFFFF;
+}
+
+#app-menu .list .item span {
+   color: #FFFFFF;
+}
+
+#app-menu .list .logout span {
+   color: #FFFFFF;
+}
+
+#rs-settings .container .item span, #rcs-menu .item span {
+  color: #FFFFFF!important; 
+}
+
+.rcspdjheader span {
+  color: #FFFFFF !important; 
+}
+
+#rcs-appright-button .list.staff .group span, #rcs-menu .group span {
+  color: #FFFFFF !important;
+}
+
+#app-menu .list .rcsunload,
+#app-menu .list .logout {
+  background:none !important;
+  transition:0.2s;
+  border:none !important;
+  color:#fff;
+  left:0 !important;
+  right:0 !important;
+}
+
+#app-menu .list .rcsunload:hover {
+  background:rgba(184, 40, 40, 0.2) !important;
+  box-shadow:inset 3px 0 0 #B82828;
+}
+
+#app-menu .list .logout:hover {
+  background:rgba(191, 43, 43, 0.2) !important;
+  box-shadow:inset 3px 0 0 #BF2B2B;
+}
+
+.icon-rcsmenu-main {
+    background:url('http://i.imgur.com/V3WLaxk.png') !important;
+}
+
+.icon-rcsmenu-notifications {
+    background:url('http://i.imgur.com/WjBqp90.png') !important;
+}
+
+.icon-rcsmenu-styling {
+    background:url('http://i.imgur.com/JunpILN.png') !important;
+}
+
+.icon-rcsmenu-customize {
+    background:url('http://i.imgur.com/Wi4IhEt.png') !important;
+}
+
+.icon-rcsmenu-moderation {
+    background:url('http://i.imgur.com/s9qlJUV.png') !important;
+}
+
+.icon-rcsmenu-settings {
+    background:url('http://i.imgur.com/d7yfQ7T.png') !important;
+}
+
+.offline .thumb {
+	border-color: hsl(0, 70%, 50%) !important;
+	box-shadow: none !important;
+}
+
+.thumb.large, #user-rollover .meta.offline .thumb.large {
+	box-shadow: 0 0 15px hsl(0, 70%, 50%) !important;
+}
+
+.thumb.large, .thumb, #user-rollover .meta.offline .thumb {
+	border-color: hsl(0, 70%, 50%) !important;
+	box-shadow: 0 0 7px hsl(0, 70%, 50%) !important;
+}
+
+.thumb.large, .thumb, #user-rollover .meta.online .thumb {
+	border-color: hsl(80,70%,50%) !important;
+	box-shadow: 0 0 7px hsl(80,70%,50%) !important;
+}
+
+.thumb.large, #user-rollover .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl(80,70%,50%) !important;
+}
+
+/* Rustack */
+
+#user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after, #user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after, #user-lists .list .user.id-29099103 .name:after, #chat [data-cid^='29099103-'] .un:after {
+    content: 'CSS';
+    display: inline-block;
+    margin: 0 0 0 5px; 
+    padding: 0 3px;
+    color: #03FF7D;
+    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29099103 .meta:before {
+    content: 'CSS';
+    top: 112px;
+    left: 105px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #03FF7D;
+    background: linear-gradient(rgba(0, 64, 0, 0.5), rgba(0, 128, 0, 0.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29099103 .meta:after {
+    content: 'Helper';
+    color: #03FF7D;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+#chat .cm[data-cid^="29099103-"] .un {
+    color: rgb(3, 255, 125) !important;
+    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span:after {
+    content:'/ VIP';
+}
+
+.id-29099103 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="29099103"] .meta.is-staff .name .icon-chat-dj + span, #user-rollover.id-29099103 > .info > .role span, #user-rollover.id-29099103 > .meta > .username, #user-lists .list.room .user.id-29099103 .name {
+    color: rgb(3, 255, 125) !important;
+    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
+}
+
+#chat .cm.message.id-29099103, #chat .cm.emote.id-29099103 {
+    border-left:  #03FF7D 2px dotted !important;
+    border-right: #03FF7D 2px dotted !important;
+}
+
+#chat .cm.message.id-29099103:hover, #chat .cm.emote.id-29099103:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+.emote.id-29099103 .text {
+    color:  #03FF7D !important;
+}
+
+[data-cid^="29099103"].cm .msg .from .un, #user-lists .list.room .user.role-dj.id-29099103 .name {
+    color: rgb(3, 255, 125) !important;
+    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
+}
+
+
+[data-cid^="29099103"].cm .msg .from .un {
+        font-size: 13px;
+}
+
+[data-cid^="29099103"].cm:hover .msg .from .un, #user-lists .list .user.role-dj.id-29099103:hover .name {
+    color: rgb(3, 255, 125) !important;
+    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
+}
+
+#chat [data-cid^='29099103-'] .un:after,
+#user-lists .list .user.id-29099103 .name:after,
+#user-rollover.id-29099103 .username:after {
+    content: 'Room designer';
+    border-style: solid;
+    border-color: #03FF7D;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #11F16E;
+    font-style: normal;
+}
+
+/* 🎮𝕩𝕓𝕖𝕒𝕤𝕥🎮 */
+
+#user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after, #user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after, #user-lists .list .user.id-29140933 .name:after, #chat [data-cid^='29140933-'] .un:after {
+    content: 'CSS';
+    display: inline-block;
+    margin: 0 0 0 5px; 
+    padding: 0 3px;
+    color: #11F16E;
+    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29140933 .meta:before {
+    content: 'CSS';
+    top: 112px;
+    left: 105px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #11F16E;
+    background: linear-gradient(rgba(0, 64, 0, 0.5), rgba(0, 128, 0, 0.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29140933 .meta:after {
+    content: 'Designer';
+    color: #11F16E;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+#chat .cm[data-cid^="29140933-"] .un {
+    color: rgb(17, 241, 110) !important;
+    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span:after {
+    content:'/ VIP';
+}
+
+.id-29140933 > .msg > .from.dj > .un, 
+#waitlist .list .user[data-uid="29140933"] .meta.is-staff .name .icon-chat-dj + span, #user-rollover.id-29140933 > .info > .role span, #user-rollover.id-29140933 > .meta > .username, #user-lists .list.room .user.id-29140933 .name {
+    color: rgb(17, 241, 110) !important;
+    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
+}
+
+#chat .cm.message.id-29140933, #chat .cm.emote.id-29140933 {
+    border-left:  #11F16E 2px dotted !important;
+    border-right: #11F16E 2px dotted !important;
+}
+
+#chat .cm.message.id-29140933:hover, #chat .cm.emote.id-29140933:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+.emote.id-29099103 .text {
+    color:  #11F16E !important;
+}
+
+[data-cid^="29140933"].cm .msg .from .un, #user-lists .list.room .user.role-dj.id-29140933 .name {
+    color: rgb(17, 241, 110) !important;
+    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
+}
+
+
+[data-cid^="29140933"].cm .msg .from .un {
+        font-size: 13px;
+}
+
+[data-cid^="29140933"].cm:hover .msg .from .un, #user-lists .list .user.role-dj.id-29140933:hover .name {
+    color: rgb(17, 241, 110) !important;
+    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
 }
 
 #chat [data-cid^='29140933-'] .un:after,
 #user-lists .list .user.id-29140933 .name:after,
 #user-rollover.id-29140933 .username:after {
-    content: 'ROOM DESIGNER';
+    content: 'Room designer';
     border-style: solid;
-    border-color: #FFD244;
-    border-radius: 2px;
+    border-color: #11F16E;
     border-width: 1px;
     font-size: 10px;
     display: inline-block;
     margin: 0 0 0 8px;
     padding: 0 2px;
-    color: #FFD244;
+    color: #00DC8F;
     font-style: normal;
 }
 
-#chat [data-cid^='29140933-'] .badge-box .bdg {
-    background-image: url(http://i.imgur.com/x8LPVrt.gif)!important;
-    background-size: cover !important;
+#user-rollover .meta.online .status span {
+   color: #00FF00;
+   margin-left: 0;
 }
 
-#chat [data-cid^="29140933-"].message .timestamp {
-    color: #FFBE5B !important;
+#user-rollover .meta.online .status i {
+   display: none;
 }
 
-#chat [data-cid^="29140933-"].emote .text {
-    color: #f7f7f7 !important;
+#playlist-button {
+    border-right: 1px solid #03FF7D;
+    background: linear-gradient(to bottom,#4B2342 0,#1C0018 100%);
+    box-shadow: -11px 11px 12px -11px #03FF7D inset;
+    width: 52px;
 }
 
-#chat [data-cid^="29140933-"].message {
-    color: #f7f7f7 !important;
+#playlist-meta .bar-button, #search {
+    box-shadow: rgb(3, 255, 125) 11px 11px 12px -11px inset;
 }
 
-#chat [data-cid^="29140933-"] .icon,
-#chat .id-29140933 .icon {
-    display: none !important;
+#playlist-meta .bar-button {
+    width: calc(100% - 53px)!important;
 }
 
-#user-lists .list .user.id-29140933 .name,
-#user-rollover.id-29140933 .username,
-#chat [data-cid^='29140933-'] .un {
-    color: #26ff00 !important;
-    font-style: italic;
+#playlist-meta {
+    border-top: 1px solid rgb(3, 255, 125);
+    box-shadow: rgb(3, 255, 125) 0px -15px 24px -17px;
 }
 
-#chat-messages [data-cid^="29140933-"] .text {
-    font-weight: bold;
+#footer-user .buttons {
+  box-shadow: 0px -16px 23px -18px rgb(3, 255, 125);
+  top: 0px;
+  left: 1px;
+  box-shadow: 0px 11px 12px -11px rgb(3, 255, 125) inset;
+  -moz-box-shadow: 0px 11px 12px -11px rgb(3, 255, 125) inset;
+  -webkit-box-shadow: 0px 11px 15px -11px rgb(3, 255, 125) inset;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(3, 255, 125) transparent transparent!important;
+  transition: box-shadow .2s ease, border-color .2s ease;
 }
 
-#chat-messages [data-cid^="29140933-"] .msg {
-    font-weight: bold;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
-    border-radius: 10px;
+#room-name .bar-value {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-/* wazzup1 */
-
-*/
-
-/* #chat [data-cid^="6291187-"].emote {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } 28463273
-    
-    f #chat [data-cid^="6291187-"].message {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } */
-
-#chat-messages [data-cid^="6291187-"] .timestamp,
-#chat [data-cid^="6291187-"].emote .timestamp {
-    color: #FFBE5B !important;
+#room-host .username {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^='6291187-'] .un:after,
-#user-lists .list .user.id-6291187 .name:after,
-#user-rollover.id-6291187 .username:after {
-    content: 'RDKL';
-    border-style: solid;
-    border-color: #FFD244;
-    border-radius: 2px;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #FFD244;
-    font-style: normal;
+#now-playing-dj .username {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^='6291187-'] .badge-box .bdg {
-    background-image: url(http://i.imgur.com/L0NDlix.png)!important;
-    background-size: cover !important;
+#now-playing-media .bar-value, #chat .cm.scriptmsg .smsg-title {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^="6291187-"].message .timestamp {
-    color: #FFBE5B !important;
+#now-playing-media .bar-value .author, #chat .cm.scriptmsg .smsg-author {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^="6291187-"].emote .text {
-    color: #f7f7f7 !important;
+#your-active-playlist span {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^="6291187-"].message {
-    color: #f7f7f7 !important;
+#footer .bar-button .section:last-child span {
+    color: #03FF7D;
+    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
 }
 
-#chat [data-cid^="6291187-"] .icon,
-#chat .id-3609549 .icon {
-    display: none !important;
+#room-bar {
+  transition:0.3s;
 }
 
-#user-lists .list .user.id-6291187 .name,
-#user-rollover.id-6291187 .username,
-#chat [data-cid^='6291187-'] .un {
-    color: #ff0083 !important;
-    font-style: italic;
+#room-bar:hover {
+  box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat-messages [data-cid^="6291187-"] .text {
-    font-weight: bold;
+#app-menu .button:hover {
+  box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat-messages [data-cid^="6291187-"] .msg {
-    font-weight: bold;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
-    border-radius: 10px;
+.app-header {
+  box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-/* Ðʝ Ƒ𝐢ᗪ𐍈 */
-
-*/
-
-/* #chat [data-cid^="4822496-"].emote {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } 28463273
-    
-    f #chat [data-cid^="4822496-"].message {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } */
-
-#chat-messages [data-cid^="4822496-"] .timestamp,
-#chat [data-cid^="4822496-"].emote .timestamp {
-    color: #FFBE5B !important;
+.header-panel-button {
+transition:0.3s;
 }
 
-#chat [data-cid^='4822496-'] .un:after,
-#user-lists .list .user.id-4822496 .name:after,
-#user-rollover.id-4822496 .username:after {
-    content: 'HOST';
-    border-style: solid;
-    border-color: #FFD244;
-    border-radius: 2px;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #FFD244;
-    font-style: normal;
+.header-panel-button:hover {
+box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat [data-cid^='4822496-'] .badge-box .bdg {
-    background-image: url(http://i.imgur.com/pLZOr3L.gif)!important;
-    background-size: cover !important;
+.header-panel-button.selected {
+transition:0.3s;
+box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat [data-cid^="4822496-"].message .timestamp {
-    color: #FFBE5B !important;
+#rs-skip-button:hover {
+box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat [data-cid^="4822496-"].emote .text {
-    color: #f7f7f7 !important;
+#rs-skip-button {
+background:none !important;
+box-shadow:none !important;
+transition:0.3s;
 }
 
-#chat [data-cid^="4822496-"].message {
-    color: #f7f7f7 !important;
+#history-button:hover {
+box-shadow:inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat [data-cid^="4822496-"] .icon,
-#chat .id-4822496 .icon {
-    display: none !important;
+#history-button {
+background:none;
+box-shadow:none;
+transition:0.3s;
 }
 
-#user-lists .list .user.id-4822496 .name,
-#user-rollover.id-4822496 .username,
-#chat [data-cid^='4822496-'] .un {
-    color: #ff0083 !important;
-    font-style: italic;
+#history-button.selected {
+background: #000;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: inset 0 -5px 10px #03FF7D  !important;
 }
 
-#chat-messages [data-cid^="4822496-"] .text {
-    font-weight: bold;
+.userlj {
+  background: url('https://cdn.plug.dj/_/static/images/icons.33b7caefa497af17b1d76c3ef30c0f8408eb637f.png') 314px -349px;
+  position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
 }
 
-#chat-messages [data-cid^="4822496-"] .msg {
-    font-weight: bold;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
-    border-radius: 10px;
+.icon { 
+  background-image: url('https://vgy.me/z3F2ta.png');
 }
 
-/* ChiefMcFlurry */
-
-*/
-
-/* #chat [data-cid^="4741080-"].emote {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } 28463273
-    
-    f #chat [data-cid^="4741080-"].message {
-        background: rgba(255, 255, 68, 0.1) !important;
-        border-left: #FFD244 3px solid !important;
-    } */
-
-#chat-messages [data-cid^="4741080-"] .timestamp,
-#chat [data-cid^="4741080-"].emote .timestamp {
-    color: #FFBE5B !important;
+#volume .slider .circle {
+  top: 5px;
 }
 
-#chat [data-cid^='4741080-'] .un:after,
-#user-lists .list .user.id-4741080 .name:after,
-#user-rollover.id-4741080 .username:after {
-    content: '♥ Viktorka';
-    border-style: solid;
-    border-color: #FFD244;
-    border-radius: 2px;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #FFD244;
-    font-style: normal;
+.slider .line {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
 }
 
-#chat [data-cid^='4741080-'] .badge-box .bdg {
-    background-image: url(http://i.imgur.com/Zoz6zEb.png)!important;
-    background-size: cover !important;
+#user-settings .container .cap .slider .circle {
+  top: 1px;
 }
 
-#chat [data-cid^="4741080-"].message .timestamp {
-    color: #FFBE5B !important;
+/* Subscriber */
+
+#user-rollover .meta.subscriber .status i {
+	background-image: url("http://i.imgur.com/IiDzE5w.png");
+	color: #FFE149;
+	background-position: -1px 0 !important;
 }
 
-#chat [data-cid^="4741080-"].emote .text {
-    color: #f7f7f7 !important;
+#user-rollover .meta.subscriber .status span {
+	color: #FFE149;
 }
 
-#chat [data-cid^="4741080-"].message {
-    color: #f7f7f7 !important;
+#user-rollover .actions .giftsub span {
+	color: #FFE149;
 }
 
-#chat [data-cid^="4741080-"] .icon,
-#chat .id-4741080 .icon {
-    display: none !important;
+#user-rollover .actions .giftsub i {
+	background-image: url("http://i.imgur.com/IiDzE5w.png");
+	background-position: -1px 0 !important;
 }
 
-#user-lists .list .user.id-4741080 .name,
-#user-rollover.id-4741080 .username,
-#chat [data-cid^='4741080-'] .un {
-    color: #ff0000 !important;
-    font-style: italic;
+#user-rollover .meta.subscriber.silver .status i {
+	background-image: url("http://i.imgur.com/tn3DrDG.png");
+	color: #EBEAE5;
+	background-position: -1px 0 !important;
+}
+#user-rollover .meta.subscriber.silver .status span {
+	color: #EBEAE5;
 }
 
-#chat-messages [data-cid^="4741080-"] .text {
-    font-weight: bold;
+/* Staff */
+
+/* Admin */
+
+icon-chat-admin {
+    background: url("https://vgy.me/MZJi1A.png") 0 !important;
 }
 
-#chat-messages [data-cid^="4741080-"] .msg {
-    font-weight: bold;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.18));
-    border-radius: 10px;
+.icon-chat-admin ~ .un, .app-right .friends .is-admin span, .from.admin > span {
+    color: #63BEFF !important;
 }
 
+/* BA */
+
+.icon-chat-ambassador {
+    background: url("http://i.imgur.com/lZ0kZb0.png") 0 !important;
+}
+
+:not(#chat) .icon-chat-ambassador + span, #chat .icon-chat-ambassador ~ .un {
+    color: #86FF45 !important;
+}
+
+/* Host & Cohost */
+
+#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
+    color: #03FF7D !important;
+}
+
+.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
+    color: #03FF7D !important;
+}
+
+#user-lists .group.host ~ .user {
+    color: #03FF7D !important;
+}
+
+.icon-chat-host, .message.from-host > .icon,.emote.from-host > .icon, .mention.from-host > .icon {		
+    background-image: url('https://vgy.me/9L48ig.png') !important;		
+    background-position: center;		
+}
+
+#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
+    color: #03FF7D !important;
+}
+
+.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
+    color: #03FF7D !important;
+}
+
+.icon-chat-cohost, .message.from-cohost > .icon,.emote.from-cohost > .icon, .mention.from-cohost > .icon {		
+    background-image: url('https://vgy.me/9L48ig.png') !important;		
+    background-position: center;		
+}
+
+/* Manager */
+
+.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
+    color: #11F16E !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
+    color: #11F16E !important;
+}
+
+#user-lists .group.manager ~ .user {
+    color: #11F16E !important;
+}
+
+.icon-chat-manager, .message.from-manager > .icon,.emote.from-manager > .icon, .mention.from-manager > .icon {		
+    background-image: url('https://vgy.me/yIhrH3.png') !important;		
+    background-position: center;		
+}
+
+/* Bouncer */
+
+#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
+    color: #00DC8F !important;
+}
+
+.icon-chat-bouncer,.message.from-bouncer > .icon,.emote.from-bouncer > .icon,.mention.from-bouncer > .icon {
+    background-image: url("https://vgy.me/nRKeMG.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
+    color: #00DC8F !important;
+}
+
+#user-lists .group.bouncer ~ .user {
+    color: #00DC8F !important;
+}
+
+/* Rdj */
+
+#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
+    color: #00BC64 !important;
+}
+
+.icon-chat-dj,.message.from-residentdj > .icon,.emote.from-residentdj > .icon,.mention.from-residentdj > .icon {
+    background-image: url("https://vgy.me/g5yT87.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
+    color: #00BC64 !important;
+}
+
+#user-lists .group.dj ~ .user {
+    color: #00BC64 !important;
+}
+
+.user-content.profile .meta .blurb .box {
+    position: relative;
+    overflow: hidden;
+    padding: 7px;
+    min-width: 240px;
+    min-height: 38px;
+    max-width: 300px;
+    max-height: 38px;
+    width: 90%;
+    background: #000000;
+    cursor: pointer;
+}
+
+.subscribe-button {
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-left: 10px;
+    padding: 6px;
+    background: #000000;
+    color: #eee;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.subscribe-button span {
+    color: #FFE149;
+}
+
+#playlist-import {
+    left: 0;
+    z-index: 50;
+    background: #000000;
+}
+
+#playlist-create {
+    right: 0;
+    z-index: 55;
+    background: #000000;
+}
+
+.dialog.no-submit .button.submit {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+    cursor: default !important;
+}
+
+.dialog .button.cancel {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+.dialog-frame .button.cancel {
+    color: #FFFFFF;
+}
+
+.dialog .button.cancel:hover {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+/* App-menu */
+
+#app-menu {
+  max-width: 400px !important;
+}
+
+#app-menu .list {
+  max-width: 400px !important;
+}
+
+#app-menu, 
+#app-menu.open { 
+  -webkit-transition: 500ms ease; 
+  transition: 500ms ease; 
+} 
+
+#app-menu .list { 
+  -webkit-transition: 500ms ease; 
+  transition: 500ms ease; 
+  opacity: 0; 
+}
+
+#app-menu.open .list { 
+  -webkit-transition: 500ms ease; 
+  transition: 500ms ease; opacity: 1; 
+}
+
+#app-menu {
+  border-right-width: 0 !important; 
+  -moz-box-shadow: none; 
+  -webkit-box-shadow: none; 
+  box-shadow: none;
+}
+
+#app-menu.open { 
+  background-color: #282c35; 
+}
+
+#app-menu { 
+  left: -177px; 
+  max-width: 300px; 
+  background-color: rgba(69, 69, 69, 0.25); 
+}
+
+#app-menu .button i { 
+  left: 189px; 
+}
+
+#app-menu .item:hover { 
+  background: #000 !important;  
+  box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
+}
+
+#room-settings .general-settings .option button {
+    position: relative;
+    float: left;
+    width: 45%;
+    height: 39px;
+    background: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    cursor: default;
+}
+
+#search {
+    position: absolute;
+    top: 0;
+    left: 53px;
+    overflow-x: hidden;
+    width: 500px;
+    height: 54px;
+    background: #000000;
+    -webkit-box-shadow: inset -2px 2px 0 -1px #000000;
+    -moz-box-shadow: inset -2px 2px 0 -1px #000000;
+    box-shadow: inset -2px 2px 0 -1px #000000;
+}
+
+#app-menu .list {
+    position: absolute;
+    top: 53px;
+    left: -53px;
+    width: 180px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all .2s ease-in;
+}
+
+#chat-input {
+    background: #000000;
+    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    border-radius: 10px !important;
+}
+
+/* focused */
+
+.focused {
+    border-radius: 10px !important;
+    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+}
+
+#playlist-panel #search-bar {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#filter-bar {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+.app-right .friends .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#user-lists .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#dashboard .search  {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+.dialog-input-background {
+    background: #000000;
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+.dialog-input-background.focused {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#rcs-menu .search {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#user-friends .search {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 0 1px #03FF7D !important;
+}
+
+#search-menu .bar-divider {
+    background: #03FF7D;
+}
+
+#search-menu li:hover {
+    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    background: #000000;
+}
+
+#search-menu {
+    border-color: #03FF7D !important;
+}
+
+#search-menu li {
+    border-color: #03FF7D !important;
+}
+
+.user-content.profile .meta .blurb input {
+    position: relative;
+    display: none;
+    padding: 7px;
+    min-width: 240px;
+    min-height: 38px;
+    max-width: 300px;
+    max-height: 38px;
+    width: 90%;
+    border: none;
+    background: #000000;
+    -webkit-box-shadow: inset 0 0 0 1px #03FF7D;
+    -moz-box-shadow: inset 0 0 0 1px #03FF7D;
+    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    color: #eee;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#search {
+  background: #000 !important;  
+}
+
+#filter-bar {
+  background: #000 !important;  
+}
+
+#dashboard .search { 
+  background:  #000 !important; 
+}
+
+.slider .line, #user-settings .slider .bar {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
+}
+
+#user-settings .slider .bar {
+	width: calc(100% - 1px) !important;
+}
+
+.rcsslider .bar {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
+}
+
+.notification {
+	background: rgba(3, 255, 125,.7);
+}
+#toast-notifications .left {
+	background: linear-gradient(135deg, rgba(255,255,255,.4), rgba(0,0,0,0)) !important;
+}
+#toast-notifications .right {
+	background: linear-gradient(rgba(255,255,255,.2), rgba(0,0,0,0)) !important;
+}
+
+.bar-divider {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 1px;
+    height: 28px;
+    background: #03FF7D;
+}
+
+#room-settings .general-settings .description .value {
+    overflow-x: hidden;
+    height: 235px;
+    overflow-y: hidden;
+}
+
+.user-content .avatars .grid .cell .top {
+	background: url(https://vgy.me/pUtTnW.jpg);
+}
+
+.user-content .avatars .cell:hover .top, .user-content .avatars .cell.selected .top {
+	background: url(https://vgy.me/pUtTnW.jpg) !important;
+}
+
+.user-content .avatars .cell:hover {
+	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
+}
+
+.user-content .badges .cell:hover {
+	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
+}
+
+.user-content .badges .cell.selected {
+	background: url(https://vgy.me/pUtTnW.jpg) !important;
+}
+
+.communities .grid .cell .population .friends .divider {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 24px;
+    background: #03FF7D;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.communities .grid .cell .population .guests .divider {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 24px;
+    background: #03FF7D;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+#user-lists .list.staff .group:first-child {
+	background:transparent;
+}
