@@ -1315,15 +1315,6 @@ background: #000;
 box-shadow: inset 0 -5px 10px #03FF7D  !important;
 }
 
-.userlj {
-  background: url('https://cdn.plug.dj/_/static/images/icons.33b7caefa497af17b1d76c3ef30c0f8408eb637f.png') 314px -349px;
-  position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
-}
-
-.icon { 
-  background-image: url('https://vgy.me/z3F2ta.png');
-}
-
 #volume .slider .circle {
   top: 5px;
 }
@@ -1338,12 +1329,6 @@ box-shadow: inset 0 -5px 10px #03FF7D  !important;
 
 /* Subscriber */
 
-#user-rollover .meta.subscriber .status i {
-	background-image: url("http://i.imgur.com/IiDzE5w.png");
-	color: #FFE149;
-	background-position: -1px 0 !important;
-}
-
 #user-rollover .meta.subscriber .status span {
 	color: #FFE149;
 }
@@ -1352,10 +1337,7 @@ box-shadow: inset 0 -5px 10px #03FF7D  !important;
 	color: #FFE149;
 }
 
-#user-rollover .actions .giftsub i {
-	background-image: url("http://i.imgur.com/IiDzE5w.png");
-	background-position: -1px 0 !important;
-}
+
 
 #user-rollover .meta.subscriber.silver .status i {
 	background-image: url("http://i.imgur.com/tn3DrDG.png");
