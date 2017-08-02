@@ -1035,29 +1035,6 @@ action.friend {
   box-shadow:inset 3px 0 0 #BF2B2B;
 }
 
-.icon-rcsmenu-main {
-    background:url('http://i.imgur.com/V3WLaxk.png') !important;
-}
-
-.icon-rcsmenu-notifications {
-    background:url('http://i.imgur.com/WjBqp90.png') !important;
-}
-
-.icon-rcsmenu-styling {
-    background:url('http://i.imgur.com/JunpILN.png') !important;
-}
-
-.icon-rcsmenu-customize {
-    background:url('http://i.imgur.com/Wi4IhEt.png') !important;
-}
-
-.icon-rcsmenu-moderation {
-    background:url('http://i.imgur.com/s9qlJUV.png') !important;
-}
-
-.icon-rcsmenu-settings {
-    background:url('http://i.imgur.com/d7yfQ7T.png') !important;
-}
 
 .offline .thumb {
 	border-color: hsl(0, 70%, 50%) !important;
