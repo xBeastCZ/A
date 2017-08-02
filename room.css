@@ -1270,26 +1270,6 @@ action.friend {
    display: none;
 }
 
-#playlist-button {
-    border-right: 1px solid #03FF7D;
-    background: linear-gradient(to bottom,#4B2342 0,#1C0018 100%);
-    box-shadow: -11px 11px 12px -11px #03FF7D inset;
-    width: 52px;
-}
-
-#playlist-meta .bar-button, #search {
-    box-shadow: rgb(3, 255, 125) 11px 11px 12px -11px inset;
-}
-
-#playlist-meta .bar-button {
-    width: calc(100% - 53px)!important;
-}
-
-#playlist-meta {
-    border-top: 1px solid rgb(3, 255, 125);
-    box-shadow: rgb(3, 255, 125) 0px -15px 24px -17px;
-}
-
 #now-playing-dj .username {
     color: #03FF7D;
     text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
@@ -1521,38 +1501,6 @@ box-shadow: inset 0 -5px 10px #03FF7D  !important;
 
 .subscribe-button span {
     color: #FFE149;
-}
-
-#playlist-import {
-    left: 0;
-    z-index: 50;
-    background: #000000;
-}
-
-#playlist-create {
-    right: 0;
-    z-index: 55;
-    background: #000000;
-}
-
-.dialog.no-submit .button.submit {
-    background: #000000 !important;
-    color: #FFFFFF !important;
-    cursor: default !important;
-}
-
-.dialog .button.cancel {
-    background: #000000 !important;
-    color: #FFFFFF;
-}
-
-.dialog-frame .button.cancel {
-    color: #FFFFFF;
-}
-
-.dialog .button.cancel:hover {
-    background: #000000 !important;
-    color: #FFFFFF;
 }
 
 /* App-menu */
