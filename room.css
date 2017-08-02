@@ -1651,39 +1651,3 @@ box-shadow: inset 0 -5px 10px #03FF7D  !important;
 #user-lists .list.staff .group:first-child {
 	background:transparent;
 }
-
-#chat .from.admin .un {
-	color: #63BEFF;
-}
-
-#chat .from.ambassador .un {
-	color: #86FF45;
-}
-
-#chat .from.host .un {
-	color: #03FF7D;
-}
-
-#chat .from.cohost .un {
-	color: #03FF7D;
-}
-
-#chat .from.manager .un {
-	color: #11F16E;
-}
-
-#chat .from.bouncer .un {
-	color: #00DC8F;
-}
-
-#chat .from.dj .un {
-	color: #00BC64;
-}
-
-#chat .from.subscriber .un {
-	color: #FFE149;
-}
-
-#chat .from.subscriber.silver .un {
-	color: #EBEAE5;
-}
