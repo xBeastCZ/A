@@ -1701,18 +1701,6 @@ box-shadow: inset 0 -5px 10px #03FF7D  !important;
 	background: #000000 !important;
 }
 
-.user-content .avatars .cell:hover {
-	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
-}
-
-.user-content .badges .cell:hover {
-	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
-}
-
-.user-content .badges .cell.selected {
-	background: url(https://vgy.me/pUtTnW.jpg) !important;
-}
-
 .communities .grid .cell .population .friends .divider {
     position: relative;
     float: left;
