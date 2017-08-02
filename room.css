@@ -890,14 +890,6 @@ action.friend {
       background: rgba(0, 0, 0, 1) !important;
 }
 
-#footer #iosbadge-menu {
-    display: none !important;
-}
-
-#footer #androidbadge-menu {
-    display: none !important;
-}
-
 .tab-menu button:hover {
     background: #000000;
     color: #FFFFFF;
