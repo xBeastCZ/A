@@ -27,17 +27,18 @@ You are NOT allowed using this file without creator's permission!
 	border-left: 3px solid #FF0000 !important;
 }
 
+/* Vote */
+
 #vote .crowd-response.disabled .bottom {
-     background: #161616;
-     opacity: 0.3;
+     background: #000000;
 }
 
 #vote .crowd-response {
-     background: #101016;
+     background: #000000;
 }
 
 #vote .crowd-response .top {
-     background: #101016;
+     background: #000000;
 }
 
 #vote .bottom {
@@ -50,21 +51,17 @@ You are NOT allowed using this file without creator's permission!
 
 /* Woot */
 
-.icon-woot {
-     -webkit-filter: hue-rotate(130deg);
-}
 
 #woot .top {
      color:  #00FF00;
 }
 
 #woot .bottom {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #00FF00;
      border-bottom: 2px solid #00FF00;
      color: #00FF00;
      box-shadow: 4px 0px 10px -4px #00FF00 inset;
-     width: 100%;
 }
 
 #woot {
@@ -76,16 +73,15 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #woot.crowd-response.disabled.active .bottom {
-     background: #2C6129;
+     background: #000000;
 }
 
 #woot-rs .title {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #00FF00;
      border-bottom: 2px solid #00FF00;
      color: #00FF00;
      box-shadow: 4px 0px 10px -4px #00FF00 inset;
-     width: 100%;
 }
 
 /* Grab */
@@ -95,12 +91,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #grab .bottom {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #8000FF;
      border-bottom: 2px solid #8000FF;
      color: #8000FF;
      box-shadow: 0px 0px 10px -4px #8000FF inset;
-     width: 100%;
 }
 
 #grab {
@@ -112,12 +107,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #grab-rs .title {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #8000FF;
      border-bottom: 2px solid #8000FF;
      color: #8000FF;
      box-shadow: 0px 0px 10px -4px #8000FF inset;
-     width: 100%;
 }
 
 /* Meh */
@@ -127,12 +121,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #meh .bottom {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #FF0000;
      border-bottom: 2px solid #FF0000;
      color: #FF0000;
      box-shadow: -4px 0px 10px -4px #FF0000 inset;
-     width: 100%;
 }
 
 #meh {
@@ -144,12 +137,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #meh-rs .title {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #FF0000;
      border-bottom: 2px solid #FF0000;
      color: #FF0000;
      box-shadow: -4px 0px 10px -4px #FF0000 inset;
-     width: 100%;
 }
 
 /* Dj-button */
