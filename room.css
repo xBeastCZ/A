@@ -1334,7 +1334,7 @@
 }
 
 .cm.welcome {
-	color: rgb(0, 128, 0) !important;
+	color: rgb(0, 255, 0) !important;
         box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
@@ -2004,11 +2004,11 @@
 }
 
 .communities .grid .cell .meta .now-playing {
-   color: #008000;
+   color: #00FF00;
 }
 
 #chat-input-field {
-   color: #008000;
+   color: #00FF00;
 }
 
 .communities .grid .cell .population div.guests span {
@@ -2351,9 +2351,9 @@ box-shadow:inset 0 -5px 10px #00FF00  !important;
 
 .dialog-input-background.focused {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #008000 !important;
-    -moz-box-shadow: inset 0 0 0 1px #008000 !important;
-    box-shadow: inset 0 0 0 1px #008000 !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 #rcs-menu .search {
