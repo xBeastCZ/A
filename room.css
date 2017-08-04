@@ -1,31 +1,258 @@
-/*
-# Room:			ALL SONGS CZ/SK
-# Author:		xBeats & Rustack
-# Made for:		https://plug.dj/allsongs-czsk
-# Created:		1.8.2017
-## WARNING ##
-You are NOT allowed using this file without creator's permission!
-*/
+/* Original CSS created by xBeats & Rustack */
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
-#user-menu .avatar {
-    background-image: url('https://vgy.me/WhjTxs.jpg') !important;
-}
+/* Icons */
 
 .room-background {
-  background:url('https://vgy.me/71s2IG.jpg') !important;
+  background:url("http://i.imgur.com/zXS3b2j.png") !important;
 }
 
-.rs-log-green, .rs-log-user-woot {
-	color: #00FF00 !important;
-	border-left: 3px solid #00FF00 !important;
+.icon-rcsmenu-main {
+    background:url("http://i.imgur.com/V3WLaxk.png") !important;
 }
 
-.rs-log-red, .rs-log-user-level1-join, .rs-log-user-meh {
-	color: #FF0000 !important;
-	border-left: 3px solid #FF0000 !important;
+.icon-rcsmenu-notifications {
+    background:url("http://i.imgur.com/WjBqp90.png") !important;
 }
+
+.icon-rcsmenu-styling {
+    background:url("http://i.imgur.com/JunpILN.png") !important;
+}
+
+.icon-rcsmenu-customize {
+    background:url("http://i.imgur.com/Wi4IhEt.png") !important;
+}
+
+.icon-rcsmenu-moderation {
+    background:url("http://i.imgur.com/s9qlJUV.png") !important;
+}
+
+.icon-rcsmenu-settings {
+    background:url("http://i.imgur.com/d7yfQ7T.png") !important;
+}
+
+.userlj {
+    background: url("http://i.imgur.com/JXHliFt.png") 314px -349px;
+    position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
+}
+
+.icon { 
+    background-image: url("http://i.imgur.com/7Lkwfi1.png");
+}
+
+/* Admin Icons */
+
+.icon-chat-admin {
+    background: url("http://i.imgur.com/Lphx9oP.png") !important;
+}
+
+.message.from-admin > .icon {
+    background: url("http://i.imgur.com/Lphx9oP.png") !important;
+    background-position: center;
+}
+
+.emote.from-admin > .icon {
+    background: url("http://i.imgur.com/Lphx9oP.png") !important;
+    background-position: center;
+}
+
+.mention.from-admin > .icon {
+    background: url("http://i.imgur.com/Lphx9oP.png") !important;
+    background-position: center;
+}
+
+/* Brand Ambassadord Icons */
+
+.icon-chat-ambassador {
+    background: url("http://i.imgur.com/1QbNEuT.png") !important;
+    background-position: center;
+}
+
+.message.from-ambassador > .icon {
+    background: url("http://i.imgur.com/1QbNEuT.png") !important;
+    background-position: center;
+}
+
+.emote.from-ambassador > .icon {
+    background: url("http://i.imgur.com/1QbNEuT.png") !important;
+    background-position: center;
+}
+
+.mention.from-ambassador > .icon {
+    background: url("http://i.imgur.com/1QbNEuT.png") !important;
+    background-position: center;
+}
+
+/* Host Icons */
+
+.icon-chat-host {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.message.from-host > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-host > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-host > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+/* Cohost Icons */
+
+.icon-chat-cohost {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.message.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/41dS6qL.png") !important;		
+    background-position: center;		
+}
+
+/* Manager Icons */
+
+.icon-chat-manager {		
+    background-image: url("http://i.imgur.com/4YFiHU0.png") !important;		
+    background-position: center;		
+}
+
+.message.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/4YFiHU0.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/4YFiHU0.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/4YFiHU0.png") !important;		
+    background-position: center;		
+}
+
+/* Bouncer Icons */
+
+.icon-chat-bouncer {
+    background-image: url("http://i.imgur.com/Kl0qkm8.png") !important;
+    background-position: center;
+}
+
+.message.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/Kl0qkm8.png") !important;
+    background-position: center;
+}
+
+.emote.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/Kl0qkm8.png") !important;
+    background-position: center;
+}
+
+.mention.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/Kl0qkm8.png") !important;
+    background-position: center;
+}
+
+/* Resident Dj Icons */
+
+.icon-chat-dj {
+    background-image: url("http://i.imgur.com/Usfjli2.png") !important;
+    background-position: center;
+}
+
+.message.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/Usfjli2.png") !important;
+    background-position: center;
+}
+
+.emote.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/Usfjli2.png") !important;
+    background-position: center;
+}
+
+.mention.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/Usfjli2.png") !important;
+    background-position: center;
+}
+
+/* Subscriber Icons */
+
+.icon-chat-subscriber {
+    background-image: url("http://i.imgur.com/z9qiNBB.png") !important;
+    background-position: center;
+}
+
+.message.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/z9qiNBB.png") !important;
+    background-position: center;
+}
+
+.emote.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/z9qiNBB.png") !important;
+    background-position: center;
+}
+
+.mention.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/z9qiNBB.png") !important;
+    background-position: center;
+}
+
+#user-rollover .meta.subscriber .status i {
+	background-image: url("http://i.imgur.com/z9qiNBB.png");
+	color: #BABA00;
+	background-position: center;
+}
+
+#user-rollover .actions .giftsub i {
+	background-image: url("http://i.imgur.com/z9qiNBB.png");
+	background-position: center;
+}
+
+/* SilverSubscriber Icons */
+
+.icon-chat-subscriber.silver {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.message.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.emote.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.mention.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+#user-rollover .meta.subscriber.silver .status i {
+	background-image: url("http://i.imgur.com/X676TJf.png");
+	color: #DEDEDE;
+	background-position: center;
+}
+
 
 /* Vote */
 
@@ -68,10 +295,6 @@ You are NOT allowed using this file without creator's permission!
      box-shadow: 0px 7px 14px -4px #00FF00 !important;
 }
 
-#woot.selected .bottom {
-     background: rgba(0, 64, 0, 0.4);
-}
-
 #woot.crowd-response.disabled.active .bottom {
      background: #000000;
 }
@@ -102,10 +325,6 @@ You are NOT allowed using this file without creator's permission!
      box-shadow: 0px 7px 14px -4px #8000FF !important;
 }
 
-#grab.selected .bottom {
-     background: rgba(64, 0, 128, 0.4);
-}
-
 #grab-rs .title {
      background: #000000;
      border-top: 2px solid #8000FF;
@@ -130,10 +349,6 @@ You are NOT allowed using this file without creator's permission!
 
 #meh {
      box-shadow: 0px 7px 14px -4px #FF0000 !important;
-}
-
-#meh.selected .bottom {
-     background: rgba(128, 0, 0, 0.4);
 }
 
 #meh-rs .title {
@@ -305,11 +520,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .pop-menu.grab .menu ul li.create:hover {
-     background: #000000;
-     border-top: 1px solid #03FF7D;
-     border-bottom: 1px solid #03FF7D;
-     color: #03FF7D;
-     box-shadow: 0px 0px 18px -4px #03FF7D inset;
+     background: #00FF00;
+     border-top: 1px solid #00FF00;
+     border-bottom: 1px solid #00FF00;
+     color: #00FF00;
+     box-shadow: 0px 0px 18px -4px #00FF00 inset;
      width: 100%;
 }
 
@@ -403,6 +618,78 @@ You are NOT allowed using this file without creator's permission!
          margin-top: -15px !important;
 }
 
+.dark-label {
+	color: #fff;
+	font-weight: bold;
+}
+
+#room-settings .general-settings {
+	border-left:1px solid rgb(0, 255, 0) !important;
+}
+
+#room-settings-menu .item.selected {
+	background: rgb(0, 0, 0) !important;
+}
+
+#room-settings .general-settings .panel .title {
+        color: #FFFFFF;
+}
+
+#room-settings .general-settings .edit span {
+        color: #FFFFFF;
+}
+
+#room-settings .general-settings .option .title {
+        color: #FFFFFF;
+}
+
+#room-name .bar-value {
+        color: #00FF00;
+        text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
+}
+
+#room-host .username {
+       color: #00FF00;
+       text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
+}
+
+#room-bar {
+  transition:0.3s;
+}
+
+#room-bar:hover {
+      box-shadow:inset 0 -5px 10px #00FF00  !important;
+}
+
+#room-settings .general-settings .option button {
+      position: relative;
+      float: left;
+      width: 45%;
+      height: 39px;
+      background: #000000;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-family: "Open Sans",sans-serif;
+      cursor: default;
+}
+
+#room-settings .general-settings .description .value {
+      overflow-x: hidden;
+      height: 235px;
+      overflow-y: hidden;
+}
+
+/* Footer */
+
+#footer #iosbadge-menu {
+    display: none !important;
+}
+
+#footer #androidbadge-menu {
+    display: none !important;
+}
+
 #footer #your-next-media {
          transition: all .5s ease-in-out;
 }
@@ -447,17 +734,531 @@ You are NOT allowed using this file without creator's permission!
          top: 54px;
 }
 
+#playlist-button {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+#playlist-button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.inventory.button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.badge.button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.store.button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.profile.button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.settings.button:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+#footer  {
+	background-color:#000;
+}
+
+#footer-user .info {
+	top: -60px;
+	height: 60px;
+	background: rgba(0,0,0,0.8) !important;
+	border-top: 1px solid rgb(0, 255, 0) !important;
+	border-left: 1px solid rgb(0, 255, 0) !important;
+	border-right: 1px solid rgb(0, 255, 0) !important;
+	border-radius: 5px 5px 0px 0px;
+	left: -2px;
+}
+
+#footer-user .info .bar .progress {
+	background: #000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#footer-user.showing .back  {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.is-guest #footer-user .signup {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#footer-user.showing .back:hover {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.is-guest #footer-user .signup:hover {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#footer-user .buttons .button.settings .icon {
+	transition:0.5s;
+}
+
+#footer-user .buttons .button.settings:hover .icon {
+	transform: rotate(360deg);
+}
+
+#footer-user .buttons {
+  box-shadow: 0px -16px 23px -18px rgb(0, 255, 0);
+  top: 0px;
+  left: 1px;
+  box-shadow: 0px 11px 12px -11px rgb(0, 255, 0) inset;
+  -moz-box-shadow: 0px 11px 12px -11px rgb(0, 255, 0) inset;
+  -webkit-box-shadow: 0px 11px 15px -11px rgb(0, 255, 0) inset;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 255, 0) transparent transparent!important;
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+
+#footer .bar-button .section:last-child span {
+    color: #00FF00;
+    text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
+}
+
+/* Playlist */
+
+#playlist-menu .title {
+	color:#fff;
+}
+
+#playlist-menu .menu .row .count {
+	color:rgb(0, 255, 0);
+}
+
+#playlist-menu .menu .row.selected {
+	border-left: 3px solid rgb(0, 255, 0);
+}
+
+#playlist-menu .menu .row {
+	transition:0.3s;
+}
+
+#playlist-menu .menu .row:hover {
+	color:rgb(0, 0, 0);
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-activate-button.active {
+	background: #000;
+}
+
+#media-panel .header .button {
+	background: #000;
+}
+
+#playlist-activate-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-activate-button span {
+	color:#fff;
+}
+
+#playlist-edit-button {
+	background: #000;
+}
+
+#playlist-edit-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-shuffle-button {
+	background: #000;
+}
+
+#playlist-shuffle-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(128, 0, 255) !important;
+}
+
+#playlist-delete-button {
+	background: #000;
+}
+
+#playlist-delete-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+}
+
+#playlist-import {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-create {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-import:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-create:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.dialog {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#dialog-confirm {
+	background-color: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.dialog .dialog-frame .button .submit {
+	background: #000 !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.dialog.no-submit .button.submit {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+    cursor: default !important;
+}
+
+.dialog .button.cancel {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+.dialog-frame .button.cancel {
+    color: #FFFFFF;
+}
+
+.dialog .button.cancel:hover {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+.dialog-input-background {
+    background: #000000;
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
+}
+
+.dialog-input-background.focused {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
+}
+
+.media-list .row.now-playing {
+    height: 53px;
+    border-bottom: #000000 2px solid!important;
+    background: #000000!important;
+}
+
+.media-list .row.selected {
+	background: rgba(0, 0, 0, 0.4) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.media-list .row:hover {
+	background: rgb(0, 0, 0, 0.2) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.media-list .actions {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.drag-row-line {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-create.drag-over {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-create.drag-over:hover {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#news {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#news .label {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#news .list {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.drag-media-box {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.drag-media-label {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.drag-row-line {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#playlist-button {
+    border-right: 1px solid #00FF00;
+    background: linear-gradient(to bottom,#4B2342 0,#1C0018 100%);
+    box-shadow: -11px 11px 12px -11px #00FF00 inset;
+    width: 52px;
+}
+
+#playlist-meta .bar-button, #search {
+    box-shadow: rgb(0, 255, 0) 11px 11px 12px -11px inset;
+}
+
+#playlist-meta .bar-button {
+    width: calc(100% - 53px)!important;
+}
+
+#playlist-meta {
+    border-top: 1px solid rgb(0, 255, 0);
+    box-shadow: rgb(0, 255, 0) 0px -15px 24px -17px;
+}
+
+#your-active-playlist span {
+    color: #00FF00;
+    text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
+}
+
+#playlist-import {
+    left: 0;
+    z-index: 50;
+    background: #000000;
+}
+
+#playlist-create {
+    right: 0;
+    z-index: 55;
+    background: #000000;
+}
+
+#playlist-panel #search-bar {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
+}
+
+/* App-right */
+
+.app-right .friends .header {
+	transition: 0.3s;
+}
+
+.app-right .friends .header:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.app-right .friends .list .row:hover {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+	border-radius: 10px;
+}
+
+.app-right .friends .list .row.clickable .room:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.app-right .friends .list .row.is-offline .name span {
+   color: #FFFFFF;
+}
+
+.app-right .friends .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
+}
+
+/* Button */
+
+.button.room.selected {
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.staff.selected {
+	box-shadow: inset 0 0 20px rgb(128, 0, 255) !important;
+	border-bottom: 0px !important;
+}
+
+.button.bans.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.mutes.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.ignored.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.cancel {
+	color: #fff !important;
+}
+
+.button.submit {
+	color: #fff !important;
+}
+
+.button.submit {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+/* User-list */
+
+#user-lists .header .button.waitlist-bans.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+#user-lists .list.bans .user .label {
+       color: #ff0000;
+}
+
+#user-lists .list.mutes .user .label {
+       color: #ff0000;
+}
+
+#user-lists .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
+}
+
 /* Header */
 
 .app-header {
 	background-color:#000;
 }
 
-/* Room Bar */
+.user-content .badges .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
 
-.dark-label {
-	color: #fff;
-	font-weight: bold;
+.user-content .badges .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .badges .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .badges .grid .cell:hover>.top  {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.user-content .avatars .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.user-content .avatars .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.user-content .avatars .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.user-content .avatars .cell.selected .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.user-content .avatars .cell:hover .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .grid .cell .title-bar {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .grid .cell .top:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .grid .cell:hover>.top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-store .misc .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-menu .avatar {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 /* Now Playing Bar */
@@ -473,11 +1274,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #history-button:hover {
-	box-shadow: inset 0 0 40px #03FF7D !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #rs-skip-button:hover {
-	box-shadow: inset 0 0 40px #11F16E !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 /* Panel Bar */
@@ -503,113 +1304,23 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #chat-button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #users-button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #waitlist-button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #friends-button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #rcs-appright-button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-}
-
-/* User List */
-
-.app-right .friends .header {
-	transition: 0.3s;
-}
-
-.app-right .friends .header:hover {
-	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
-}
-
-.app-right .friends .list .row:hover {
-	box-shadow: inset 0 0 30px rgb(0, 188, 100) !important;
-	border-radius: 10px;
-}
-
-.app-right .friends .list .row.clickable .room:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
-.button.room.selected {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-	border-bottom: 0px !important;
-}
-
-.button.staff.selected {
-	box-shadow: inset 0 0 15px rgb(128, 0, 255) !important;
-	border-bottom: 0px !important;
-}
-
-.button.bans.selected {
-	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
-	border-bottom: 0px !important;
-}
-
-#user-lists .header .button.waitlist-bans.selected {
-	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
-	border-bottom: 0px !important;
-}
-
-.button.mutes.selected {
-	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
-	border-bottom: 0px !important;
-}
-
-.button.ignored.selected {
-	box-shadow: inset 0 0 15px rgb(255, 0, 0) !important;
-	border-bottom: 0px !important;
-}
-
-/* Groups */
-
-.group.host {
-       color: #03FF7D;
-}
-
-.group.manager {
-       color: #11F16E;
-}
-
-.group.bouncer {
-       color: #00DC8F;
-}
-
-.group.dj {
-       color: #00BC64;
-}
-
-/* Bans */
-
-#user-lists .list.bans .user .label {
-       color: #ff0000;
-}
-
-#user-lists .list.mutes .user .label {
-       color: #ff0000;
-}
-
-#dialog-confirm {
-	background-color: rgb(0, 220, 143) !important;
-}
-
-.button.cancel, .button.submit {
-	color: #fff !important;
-}
-
-.button.submit {
-	background: rgb(0, 188, 100) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 /* Chat */
@@ -623,7 +1334,8 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .cm.welcome {
-	color: rgb(3, 255, 125) !important;
+	color: rgb(0, 128, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .rs-log-user-friend-join {
@@ -646,48 +1358,33 @@ You are NOT allowed using this file without creator's permission!
 	border-left: 3px solid #00FFFF !important;
 }
 
-#chat .from .un {
-    color: #0080FF;
+.rs-log-green {
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
 }
 
-#chat .from.admin .un {
-	color: #63BEFF;
+.rs-log-user-woot {
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
 }
 
-#chat .from.ambassador .un {
-	color: #86FF45;
+.rs-log-red{
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
 }
 
-#chat .from.host .un {
-	color: #03FF7D;
+.rs-log-user-level1-join {
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
 }
 
-#chat .from.cohost .un {
-	color: #03FF7D;
-}
-
-#chat .from.manager .un {
-	color: #11F16E;
-}
-
-#chat .from.bouncer .un {
-	color: #00DC8F;
-}
-
-#chat .from.dj .un {
-	color: #00BC64;
-}
-
-#chat .from.subscriber .un {
-	color: #FFE149;
-}
-
-#chat .from.subscriber.silver .un {
-	color: #EBEAE5;
+.rs-log-user-meh {
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
 }
 
 .cm.moderation {
-	color: #03FF7D !important;
+	color: #00FF00 !important;
 }
 
 #chat .mention {
@@ -711,11 +1408,12 @@ You are NOT allowed using this file without creator's permission!
 
 #user-rollover {
 	background:rgba(0,0,0,0.8) !important;
-	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .thumb .background {
 	background:rgba(0,0,0,0.8) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-rollover .info .level .label {
@@ -767,27 +1465,27 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .action.mention:hover {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	background: transparent !important;
 }
 
 .action.friend:hover {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	background: transparent !important;
 }
 
 .action.mod-dj:hover {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	background: transparent !important;
 }
 
 .action.skip:hover {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	background: transparent !important;
 }
 
 .action.gift:hover {
-	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	box-shadow: inset 0 0 20px rgb(186, 186, 0) !important;
 	background: transparent !important;
 }
 
@@ -817,127 +1515,13 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .action.giftsub:hover {
-	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	box-shadow: inset 0 0 20px rgb(186, 186, 0) !important;
 	background: transparent !important;
 }
 
 #user-rollover.can-gift .action.gift:hover {
-	box-shadow: inset 0 0 20px rgb(255, 225, 73) !important;
+	box-shadow: inset 0 0 20px rgb(186, 186, 0) !important;
 	background: transparent !important;
-}
-
-/* Footer */
-
-#playlist-button {
-	background: rgb(0, 188, 100) !important;
-}
-
-#playlist-button:hover {
-	background: rgb(3, 255, 125) !important;
-}
-
-.inventory.button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-        background: rgb(0, 0, 0) !important;
-}
-
-.badge.button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-        background: rgb(0, 0, 0) !important;
-}
-
-.store.button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-        background: rgb(0, 0, 0) !important;
-}
-
-.profile.button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-        background: rgb(0, 0, 0) !important;
-}
-
-.settings.button:hover {
-	box-shadow: inset 0 0 15px rgb(3, 255, 125) !important;
-        background: rgb(0, 0, 0) !important;
-}
-
-/* Footer */
-
-#footer  {
-	background-color:#000;
-}
-
-#footer-user .info {
-	top: -60px;
-	height: 60px;
-	background: rgba(0,0,0,0.8) !important;
-	border-top: 1px solid rgb(0, 220, 143) !important;
-	border-left: 1px solid rgb(0, 220, 143) !important;
-	border-right: 1px solid rgb(0, 220, 143) !important;
-	border-radius: 5px 5px 0px 0px;
-	left: -2px;
-}
-
-.is-admin .name {
-	color: #63BEFF;
-}
-
-.is-ambassador .name {
-	color: #86FF45;
-}
-
-.is-host .name {
-	color: #03FF7D;
-}
-
-.is-cohost .name {
-	color: #03FF7D;
-}
-
-.is-manager .name {
-	color: #11F16E;
-}
-
-.is-bouncer .name {
-	color: #00DC8F;
-}
-
-.is-dj .name {
-	color: #00BC64;
-}
-
-.is-subscriber .name {
-	color: #FFE149;
-}
-
-.is-subscriber.silver .name {
-	color: #EBEAE5;
-}
-
-#footer-user .info .meta div.bar {
-	border-radius: 10px;
-}
-
-#footer-user .info .bar .progress {
-	background: #000;
-	border-radius: 10px;
-	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
-}
-
-#footer-user.showing .back  {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
-}
-
-.is-guest #footer-user .signup {
-	box-shadow: inset 0 0 20px rgb(3, 255, 125) !important;
-}
-
-#footer-user.showing .back:hover {
-	box-shadow: inset 0 0 20px rgb(17, 241, 110) !important;
-}
-
-.is-guest #footer-user .signup:hover {
-	box-shadow: inset 0 0 20px rgb(17, 241, 110) !important;
 }
 
 /* User Menu */
@@ -947,36 +1531,36 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #user-menu .item:hover {
-	box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-menu .item.selected {
-	border-left:3px solid rgb(3, 255, 125);
+	border-left:3px solid rgb(0, 255, 0);
 }
 
 #friends-button.notify .request-count {
-  background:rgba(3, 255, 125,.4);
-  box-shadow:inset 0 0 0 1px #03FF7D;
+  background:rgba(0, 255, 0,.4);
+  box-shadow:inset 0 0 0 1px #00FF00;
 }
 
 #user-menu .item.notify .count {
-  background:rgba(3, 255, 125,.4);
-  box-shadow:inset 0 0 0 1px #03FF7D;
+  background:rgba(0, 255, 0,.4);
+  box-shadow:inset 0 0 0 1px #00FF00;
 }
 
 #user-friends .tab-menu button .count {
-  background:rgba(3, 255, 125,.4);
-  box-shadow:inset 0 0 0 1px #03FF7D;
+  background:rgba(0, 255, 0,.4);
+  box-shadow:inset 0 0 0 1px #00FF00;
 }
 
 #footer-user .buttons .button.notify .count {
-  background:rgba(3, 255, 125,.4);
-  box-shadow:inset 0 0 0 1px #03FF7D;
+  background:rgba(0, 255, 0,.4);
+  box-shadow:inset 0 0 0 1px #00FF00;
 }
 
 #user-friends .tab-menu.has-requests button .count {
-  background:rgba(3, 255, 125,.4);
-  box-shadow:inset 0 0 0 1px #03FF7D;
+  background:rgba(0, 255, 0,.4);
+  box-shadow:inset 0 0 0 1px #00FF00;
 }
 
 /* Tab Menu */
@@ -987,51 +1571,58 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .tab-menu button:hover {
-	box-shadow: inset 0 0 30px rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	background:#000;
 }
 
 .tab-menu button.selected {
 	background:#000;
-	border-bottom:3px solid rgb(17, 241, 110);
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .dropdown {
 	background:#000;
-	box-shadow:inset 0 0 20px 0 rgb(0, 220, 143) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .dropdown dt {
-	box-shadow:inset -40px 0 0 0 rgb(0, 188, 110) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .dropdown dd {
 	background:#000;
-	box-shadow:inset 0 0 20px 0 rgb(3, 255, 125) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .dropdown dd .row:hover {
-	background:rgb(17, 241, 110);
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 ::-webkit-scrollbar-thumb {
-	background:rgb(0, 220, 143) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .jspDrag {
-	background:rgb(0, 188, 110) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .jspDrag:hover {
-	background:rgb(3, 255, 125) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .jspTrack .jspActive {
-	background:rgb(3, 255, 125) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .jspTrack .jspHover {
-	background:rgb(3, 255, 125) !important;
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-friends .list .row .buttons button {
@@ -1040,25 +1631,25 @@ You are NOT allowed using this file without creator's permission!
 
 #user-friends .list .row .buttons button.positive:hover {
 	background: transparent !important;
-        box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-friends .list .row .buttons button.negative:hover {
 	background: transparent !important;
-        box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-friends .list .row {
-	box-shadow:inset 0 0 10px 0 rgb(3, 255, 125);
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	border-radius:10px;
 }
 
 #user-friends .list .row:hover {
-	box-shadow:inset 0 0 30px 0 rgb(17, 241, 110);
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #user-view .user-content {
-	border-left:1px solid rgb(0, 220, 143) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .user-content.profile .meta .joined {
@@ -1066,68 +1657,27 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .user-content .header {
-	box-shadow:inset 0 1px 0 0 rgb(0, 188, 110);
+	box-shadow:inset 0 1px 0 0 rgb(0, 255, 0);
 }
 
 .user-content .header span {
 	color:#888;
 }
 
-.experience .xp .bar {
-	border-radius: 10px;
-}
-
 .experience .xp .bar .progress {
 	background: #000;
-	border-radius: 10px;
-	box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
-}
-
-.user-content.profile .meta.is-admin .role span {
-	color:rgb(99, 190, 255);
-}
-
-.user-content.profile .meta.is-ambassador .role span {
-	color:rgb(134, 255, 69);
-}
-
-.user-content.profile .meta.is-host .role span {
-	color:rgb(3, 255, 125);
-}
-
-.user-content.profile .meta.is-cohost .role span {
-	color:rgb(3, 255, 125);
-}
-
-.user-content.profile .meta.is-manager .role span {
-	color:rgb(17, 241, 110);
-}
-
-.user-content.profile .meta.is-bouncer .role span {
-	color:rgb(0, 220, 143);
-}
-
-.user-content.profile .meta.is-dj .role span {
-	color:rgb(0, 188, 100);
-}
-
-.user-content.profile .meta.is-subscriber .role span {
-	color:rgb(255, 225, 73);
-}
-
-.user-content.profile .meta.is-subscriber.silver .role span {
-	color:rgb(235, 234, 229);
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .user-content.profile .points .subscribe-button {
 	transition:0.3s;
 	border-radius:5px;
 	background:#000;
-	box-shadow: inset 0 0 2px #FFE149 !important;
+	box-shadow: inset 0 0 2px #BABA00 !important;
 }
 
 .user-content.profile .points .subscribe-button:hover {
-	box-shadow: inset 0 0 15px rgb(255, 225, 73) !important;
+	box-shadow: inset 0 0 20px rgb(186, 186, 0) !important;
 	background:rgba(0,0,0,0.8) !important
 }
 
@@ -1138,23 +1688,23 @@ You are NOT allowed using this file without creator's permission!
 
 .experience .levels .level {
 	background: #000;
-	box-shadow: inset 0 0 5px rgb(17, 241, 110) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 	transition:0.3s;
 }
 
 .experience .levels .level:hover {
-	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .experience .levels .level .label {
-	background: rgb(188, 0, 88) !important;
-        box-shadow: inset 0 0 5px rgb(17, 241, 110) !important;
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .experience .levels .level .label i.icon-sunburst {
     background: #000000;
     width: 90px;
-    border: 2px solid #00BC64;
+    border: 2px solid #00FF00;
     border-radius: 10px 10px 0px 0px;
     left: -2px;
     margin-top: -2px;
@@ -1238,7 +1788,7 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .communities .grid .cell .meta .join {
-    border: 1px solid #03FF7D;
+    border: 1px solid #00FF00;
     background: #000000;
 }
 
@@ -1248,12 +1798,12 @@ You are NOT allowed using this file without creator's permission!
 
 .communities .grid .cell .meta .room {
     text-align: center;
-    color: #03FF7D;
+    color: #00FF00;
 }
 
 .communities .grid .cell .meta .host {
     text-align: center;
-    color: #03FF7D;
+    color: #00FF00;
 }
 
 .communities .grid .cell:hover>.meta {
@@ -1269,157 +1819,13 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .user-content.communities button {
-	background: rgb(17, 241, 110) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: #000000;
 }
 
 .user-content.communities button:hover {
-	background: rgb(0, 220, 143) !important;
-}
-
-/* Room */
-
-#room-settings .general-settings {
-	border-left:1px solid rgb(0, 188, 100) !important;
-}
-
-#room-settings .general-settings .option.enabled>button.off {
-	background: #000000 !important;
-}
-
-#room-settings .general-settings .option button.off {
-	box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
-        background: #000000 !important;
-}
-
-#room-settings .general-settings .option.enabled>button.on {
-	box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
-        background: #000000 !important;
-}
-
-#room-settings-menu .item.selected {
-	background: rgb(0, 188, 100) !important;
-}
-
-/* Playlist */
-
-#playlist-menu .title {
-	color:#fff;
-}
-
-#playlist-menu .menu .row .count {
-	color:rgb(3, 255, 125);
-}
-
-#playlist-menu .menu .row.selected {
-	border-left: 3px solid rgb(17, 241, 110);
-}
-
-#playlist-menu .menu .row {
-	transition:0.3s;
-}
-
-#playlist-menu .menu .row:hover {
-	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
-}
-
-#playlist-activate-button.active {
-	background: #000;
-}
-
-#media-panel .header .button {
-	background: #000;
-}
-
-#playlist-activate-button:hover {
-	background: #000;
-	box-shadow: inset 0 0 30px rgb(0, 188, 100) !important;
-}
-
-#playlist-activate-button span {
-	color:#fff;
-}
-
-#playlist-edit-button {
-	background: #000;
-}
-
-#playlist-edit-button:hover {
-	background: #000;
-	box-shadow: inset 0 0 30px rgb(3, 255, 125) !important;
-}
-
-#playlist-shuffle-button {
-	background: #000;
-}
-
-#playlist-shuffle-button:hover {
-	background: #000;
-	box-shadow: inset 0 0 30px #b300b3 !important;
-}
-
-#playlist-delete-button {
-	background: #000;
-}
-
-#playlist-delete-button:hover {
-	background: #000;
-	box-shadow: inset 0 0 30px #ff0000 !important;
-}
-
-#playlist-import, #playlist-create {
-	background: #000;
-	box-shadow: inset 0 0 10px rgb(17, 241, 110) !important;
-}
-
-#playlist-import:hover, #playlist-create:hover {
-	background: #000;
-	box-shadow: inset 0 0 30px rgb(0, 220, 143) !important;
-}
-
-.dialog {
-	background: rgb(0, 188, 110) !important;
-}
-
-.dialog-frame .button.cancel:hover {
-	background: #ff0000 !important;
-}
-
-.dialog .dialog-frame .button .submit {
-	background: #000 !important;
-}
-
-.media-list .row.now-playing {
-	background: rgb(0, 220, 143) !important;
-	border-bottom:2px solid rgb(0, 188, 110) !important;
-}
-
-.media-list .row.selected {
-	background: rgba(0, 220, 143, 0.4) !important;
-	border:2px solid rgb(0, 88, 188) !important;
-}
-
-.media-list .row:hover {
-	background: rgba(3, 255, 125, 0.2) !important;
-}
-
-.media-list .actions {
-	background: rgb(17, 241, 110) !important;
-}
-
-.drag-row-line {
-	background: rgb(0, 220, 143) !important;
-}
-
-#playlist-create.drag-over {
-	background: rgb(0, 88, 188) !important;
-}
-
-#playlist-create.drag-over:hover {
-	background: rgb(3, 255, 125) !important;
-}
-
-#news, #news .label, #news .list, .drag-media-box, .drag-media-label, .drag-row-line {
-	background: rgb(17, 241, 110) !important;
+	box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+        background: #000000;
 }
 
 /* ▬▬▬▬▬[ TRANSPARENCY ]▬▬▬▬▬ */
@@ -1460,12 +1866,16 @@ You are NOT allowed using this file without creator's permission!
     background: transparent !important;
 }
 
+#user-lists .list.staff .group:first-child {
+	background:transparent;
+}
+
 .app-right {
-      background: rgba(0,0,0,.65) !important;
+      background: rgba(0,0,0, 1) !important;
 }
 
 .app-right .friends {
-      background: rgba(0,0,0,.65) !important;
+      background: rgba(0,0,0, 1) !important;
 }
 
 #dashboard {
@@ -1544,14 +1954,6 @@ You are NOT allowed using this file without creator's permission!
       background: rgba(0, 0, 0, 1) !important;
 }
 
-#footer #iosbadge-menu {
-    display: none !important;
-}
-
-#footer #androidbadge-menu {
-    display: none !important;
-}
-
 .tab-menu button:hover {
     background: #000000;
     color: #FFFFFF;
@@ -1577,24 +1979,12 @@ You are NOT allowed using this file without creator's permission!
     cursor: pointer;
 }
 
-#footer-user .buttons .button.settings .icon {
-	transition:0.5s;
-}
-
-#footer-user .buttons .button.settings:hover .icon {
-	transform: rotate(360deg);
-}
-
 #history-button i.icon.icon-history-white:hover {
   -moz-transform : rotate(360deg);
   -ms-transform : rotate(360deg);
   -o-transform : rotate(360deg);
   -webkit-transform : rotate(360deg);
   transform : rotate(360deg);
-}
-
-.app-right .friends .list .row.is-offline .name span {
-   color: #FFFFFF;
 }
 
 .dropdown dd .row {
@@ -1614,11 +2004,11 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .communities .grid .cell .meta .now-playing {
-   color: #03FF7D;
+   color: #008000;
 }
 
 #chat-input-field {
-   color: #03FF7D;
+   color: #008000;
 }
 
 .communities .grid .cell .population div.guests span {
@@ -1642,18 +2032,6 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .user-content.profile .meta .link .label {
-   color: #FFFFFF;
-}
-
-#room-settings .general-settings .panel .title {
-   color: #FFFFFF;
-}
-
-#room-settings .general-settings .edit span {
-   color: #FFFFFF;
-}
-
-#room-settings .general-settings .option .title {
    color: #FFFFFF;
 }
 
@@ -1700,37 +2078,13 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #app-menu .list .rcsunload:hover {
-  background:rgba(184, 40, 40, 0.2) !important;
-  box-shadow:inset 3px 0 0 #B82828;
+  background:rgba(255, 0, 0, 0.2) !important;
+  box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
 }
 
 #app-menu .list .logout:hover {
-  background:rgba(191, 43, 43, 0.2) !important;
-  box-shadow:inset 3px 0 0 #BF2B2B;
-}
-
-.icon-rcsmenu-main {
-    background:url('http://i.imgur.com/V3WLaxk.png') !important;
-}
-
-.icon-rcsmenu-notifications {
-    background:url('http://i.imgur.com/WjBqp90.png') !important;
-}
-
-.icon-rcsmenu-styling {
-    background:url('http://i.imgur.com/JunpILN.png') !important;
-}
-
-.icon-rcsmenu-customize {
-    background:url('http://i.imgur.com/Wi4IhEt.png') !important;
-}
-
-.icon-rcsmenu-moderation {
-    background:url('http://i.imgur.com/s9qlJUV.png') !important;
-}
-
-.icon-rcsmenu-settings {
-    background:url('http://i.imgur.com/d7yfQ7T.png') !important;
+  background:rgba(255, 0, 0, 0.2) !important;
+  box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
 }
 
 .offline .thumb {
@@ -1756,185 +2110,6 @@ You are NOT allowed using this file without creator's permission!
 	box-shadow: 0 0 15px hsl(80,70%,50%) !important;
 }
 
-/* Rustack */
-
-#user-rollover.id-29099103 .meta:before {
-    content: 'CSS';
-    top: 112px;
-    left: 105px;
-    position: absolute;
-    display: inline-block; 
-    padding: 0 3px;
-    color: #03FF7D;
-    background: linear-gradient(rgba(0, 64, 0, 0.5), rgba(0, 128, 0, 0.5));
-    font-size: 10px;
-}
-
-#user-rollover.id-29099103 .meta:after {
-    content: 'Helper';
-    color: #03FF7D;
-    position: absolute;
-    top: 110px;
-    left: 130px;
-}
-
-#chat .cm[data-cid^="29099103-"] .un {
-    color: rgb(3, 255, 125) !important;
-    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
-}
-
-#user-rollover.id-29099103 > .info > .role span:after {
-    content:'/ VIP';
-}
-
-.id-29099103 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="29099103"] .meta.is-staff .name .icon-chat-dj + span, #user-rollover.id-29099103 > .info > .role span, #user-rollover.id-29099103 > .meta > .username, #user-lists .list.room .user.id-29099103 .name {
-    color: rgb(3, 255, 125) !important;
-    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
-}
-
-#chat .cm.message.id-29099103, #chat .cm.emote.id-29099103 {
-    border-left:  #03FF7D 2px dotted !important;
-    border-right: #03FF7D 2px dotted !important;
-}
-
-#chat .cm.message.id-29099103:hover, #chat .cm.emote.id-29099103:hover {
-    border-left-style:  solid !important;
-    border-right-style: solid !important;
-}
-
-.emote.id-29099103 .text {
-    color:  #03FF7D !important;
-}
-
-[data-cid^="29099103"].cm .msg .from .un, #user-lists .list.room .user.role-dj.id-29099103 .name {
-    color: rgb(3, 255, 125) !important;
-    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
-}
-
-
-[data-cid^="29099103"].cm .msg .from .un {
-        font-size: 13px;
-}
-
-[data-cid^="29099103"].cm:hover .msg .from .un, #user-lists .list .user.role-dj.id-29099103:hover .name {
-    color: rgb(3, 255, 125) !important;
-    text-shadow: 0px 0px 1px #11F16E, 0px 0px 5px #00DC8F, 2px 2px 10px #11F16E !important;
-}
-
-#chat [data-cid^='29099103-'] .un:after,
-#user-lists .list .user.id-29099103 .name:after,
-#user-rollover.id-29099103 .username:after {
-    content: 'Designer Helper';
-    border-style: solid;
-    border-color: #03FF7D;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #11F16E;
-    font-style: normal;
-}
-
-/* 🎮𝕩𝕓𝕖𝕒𝕤𝕥🎮 */
-
-#user-rollover.id-29140933 .meta:before {
-    content: 'CSS';
-    top: 112px;
-    left: 105px;
-    position: absolute;
-    display: inline-block; 
-    padding: 0 3px;
-    color: #11F16E;
-    background: linear-gradient(rgba(0, 64, 0, 0.5), rgba(0, 128, 0, 0.5));
-    font-size: 10px;
-}
-
-#user-rollover.id-29140933 .meta:after {
-    content: 'Designer';
-    color: #11F16E;
-    position: absolute;
-    top: 110px;
-    left: 130px;
-}
-
-#chat .cm[data-cid^="29140933-"] .un {
-    color: rgb(17, 241, 110) !important;
-    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
-}
-
-#user-rollover.id-29099103 > .info > .role span:after {
-    content:'/ VIP';
-}
-
-.id-29140933 > .msg > .from.dj > .un, 
-#waitlist .list .user[data-uid="29140933"] .meta.is-staff .name .icon-chat-dj + span, #user-rollover.id-29140933 > .info > .role span, #user-rollover.id-29140933 > .meta > .username, #user-lists .list.room .user.id-29140933 .name {
-    color: rgb(17, 241, 110) !important;
-    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
-}
-
-#chat .cm.message.id-29140933, #chat .cm.emote.id-29140933 {
-    border-left:  #11F16E 2px dotted !important;
-    border-right: #11F16E 2px dotted !important;
-}
-
-#chat .cm.message.id-29140933:hover, #chat .cm.emote.id-29140933:hover {
-    border-left-style:  solid !important;
-    border-right-style: solid !important;
-}
-
-.emote.id-29099103 .text {
-    color:  #11F16E !important;
-}
-
-[data-cid^="29140933"].cm .msg .from .un, #user-lists .list.room .user.role-dj.id-29140933 .name {
-    color: rgb(17, 241, 110) !important;
-    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
-}
-
-
-[data-cid^="29140933"].cm .msg .from .un {
-        font-size: 13px;
-}
-
-[data-cid^="29140933"].cm:hover .msg .from .un, #user-lists .list .user.role-dj.id-29140933:hover .name {
-    color: rgb(17, 241, 110) !important;
-    text-shadow: 0px 0px 1px #00DC8F, 0px 0px 5px #00DC8F, 2px 2px 10px #00DC8F !important;
-}
-
-#chat [data-cid^='29140933-'] .un:after,
-#user-lists .list .user.id-29140933 .name:after,
-#user-rollover.id-29140933 .username:after {
-    content: 'Room designer';
-    border-style: solid;
-    border-color: #11F16E;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #00DC8F;
-    font-style: normal;
-}
-
-/* Ðʝ Ƒ𝐢ᗪ𐍈 */
-
-#chat [data-cid^='4822496-'] .un:after,
-#user-lists .list .user.id-4822496 .name:after,
-#user-rollover.id-4822496 .username:after {
-    content: 'Host ';
-    border-style: solid;
-    border-color: #11F16E;
-    border-width: 1px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0 0 0 8px;
-    padding: 0 2px;
-    color: #11F16E;
-    font-style: normal;
-}
-
 #user-rollover .meta.online .status span {
    color: #00FF00;
    margin-left: 0;
@@ -1944,88 +2119,27 @@ You are NOT allowed using this file without creator's permission!
    display: none;
 }
 
-#playlist-button {
-    border-right: 1px solid #03FF7D;
-    background: linear-gradient(to bottom,#4B2342 0,#1C0018 100%);
-    box-shadow: -11px 11px 12px -11px #03FF7D inset;
-    width: 52px;
-}
-
-#playlist-meta .bar-button, #search {
-    box-shadow: rgb(3, 255, 125) 11px 11px 12px -11px inset;
-}
-
-#playlist-meta .bar-button {
-    width: calc(100% - 53px)!important;
-}
-
-#playlist-meta {
-    border-top: 1px solid rgb(3, 255, 125);
-    box-shadow: rgb(3, 255, 125) 0px -15px 24px -17px;
-}
-
-#footer-user .buttons {
-  box-shadow: 0px -16px 23px -18px rgb(3, 255, 125);
-  top: 0px;
-  left: 1px;
-  box-shadow: 0px 11px 12px -11px rgb(3, 255, 125) inset;
-  -moz-box-shadow: 0px 11px 12px -11px rgb(3, 255, 125) inset;
-  -webkit-box-shadow: 0px 11px 15px -11px rgb(3, 255, 125) inset;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(3, 255, 125) transparent transparent!important;
-  transition: box-shadow .2s ease, border-color .2s ease;
-}
-
-#room-name .bar-value {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
-}
-
-#room-host .username {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
-}
-
 #now-playing-dj .username {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
+    color: #00FF00;
+    text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
 }
 
 #now-playing-media .bar-value, #chat .cm.scriptmsg .smsg-title {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
+    color: #00FF00;
+    text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
 }
 
 #now-playing-media .bar-value .author, #chat .cm.scriptmsg .smsg-author {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
-}
-
-#your-active-playlist span {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
-}
-
-#footer .bar-button .section:last-child span {
-    color: #03FF7D;
-    text-shadow: 1px 1px 8px #11F16E, -1px -1px 8px #00DC8F;
-}
-
-#room-bar {
-  transition:0.3s;
-}
-
-#room-bar:hover {
-  box-shadow:inset 0 -5px 10px #03FF7D  !important;
+    color: #00FF00;
+    text-shadow: 1px 1px 8px #00FF00, -1px -1px 8px #00FF00;
 }
 
 #app-menu .button:hover {
-  box-shadow:inset 0 -5px 10px #03FF7D  !important;
+  box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 .app-header {
-  box-shadow:inset 0 -5px 10px #03FF7D  !important;
+  box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 .header-panel-button {
@@ -2033,201 +2147,47 @@ transition:0.3s;
 }
 
 .header-panel-button:hover {
-box-shadow:inset 0 -5px 10px #03FF7D  !important;
+box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 .header-panel-button.selected {
 transition:0.3s;
-box-shadow:inset 0 -5px 10px #03FF7D  !important;
+box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 #rs-skip-button:hover {
-box-shadow:inset 0 -5px 10px #03FF7D  !important;
+  box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 #rs-skip-button {
-background:none !important;
-box-shadow:none !important;
-transition:0.3s;
+  background:none !important;
+  box-shadow:none !important;
+  transition:0.3s;
 }
 
 #history-button:hover {
-box-shadow:inset 0 -5px 10px #03FF7D  !important;
+  box-shadow:inset 0 -5px 10px #00FF00  !important;
 }
 
 #history-button {
-background:none;
-box-shadow:none;
-transition:0.3s;
+  background:none;
+  box-shadow:none;
+  transition:0.3s;
 }
 
 #history-button.selected {
-background: #000;
--webkit-box-shadow: none;
--moz-box-shadow: none;
-box-shadow: inset 0 -5px 10px #03FF7D  !important;
-}
-
-.userlj {
-  background: url('https://cdn.plug.dj/_/static/images/icons.33b7caefa497af17b1d76c3ef30c0f8408eb637f.png') 314px -349px;
-  position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
-}
-
-.icon { 
-  background-image: url('https://vgy.me/z3F2ta.png');
+  background: #000;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: inset 0 -5px 10px #00FF00  !important;
 }
 
 #volume .slider .circle {
   top: 5px;
 }
 
-.slider .line {
-	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
-}
-
 #user-settings .container .cap .slider .circle {
   top: 1px;
-}
-
-/* Subscriber */
-
-#user-rollover .meta.subscriber .status i {
-	background-image: url("http://i.imgur.com/IiDzE5w.png");
-	color: #FFE149;
-	background-position: -1px 0 !important;
-}
-
-#user-rollover .meta.subscriber .status span {
-	color: #FFE149;
-}
-
-#user-rollover .actions .giftsub span {
-	color: #FFE149;
-}
-
-#user-rollover .actions .giftsub i {
-	background-image: url("http://i.imgur.com/IiDzE5w.png");
-	background-position: -1px 0 !important;
-}
-
-#user-rollover .meta.subscriber.silver .status i {
-	background-image: url("http://i.imgur.com/tn3DrDG.png");
-	color: #EBEAE5;
-	background-position: -1px 0 !important;
-}
-#user-rollover .meta.subscriber.silver .status span {
-	color: #EBEAE5;
-}
-
-/* Staff */
-
-/* Admin */
-
-icon-chat-admin {
-    background: url("https://vgy.me/MZJi1A.png") 0 !important;
-}
-
-.icon-chat-admin ~ .un, .app-right .friends .is-admin span, .from.admin > span {
-    color: #63BEFF !important;
-}
-
-/* BA */
-
-.icon-chat-ambassador {
-    background: url("http://i.imgur.com/lZ0kZb0.png") 0 !important;
-}
-
-:not(#chat) .icon-chat-ambassador + span, #chat .icon-chat-ambassador ~ .un {
-    color: #86FF45 !important;
-}
-
-/* Host & Cohost */
-
-#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
-    color: #03FF7D !important;
-}
-
-.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
-    color: #03FF7D !important;
-}
-
-#user-lists .group.host ~ .user {
-    color: #03FF7D !important;
-}
-
-.icon-chat-host, .message.from-host > .icon,.emote.from-host > .icon, .mention.from-host > .icon {		
-    background-image: url('https://vgy.me/9L48ig.png') !important;		
-    background-position: center;		
-}
-
-#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
-    color: #03FF7D !important;
-}
-
-.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
-    color: #03FF7D !important;
-}
-
-.icon-chat-cohost, .message.from-cohost > .icon,.emote.from-cohost > .icon, .mention.from-cohost > .icon {		
-    background-image: url('https://vgy.me/9L48ig.png') !important;		
-    background-position: center;		
-}
-
-/* Manager */
-
-.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
-    color: #11F16E !important;
-}
-
-#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
-    color: #11F16E !important;
-}
-
-#user-lists .group.manager ~ .user {
-    color: #11F16E !important;
-}
-
-.icon-chat-manager, .message.from-manager > .icon,.emote.from-manager > .icon, .mention.from-manager > .icon {		
-    background-image: url('https://vgy.me/yIhrH3.png') !important;		
-    background-position: center;		
-}
-
-/* Bouncer */
-
-#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
-    color: #00DC8F !important;
-}
-
-.icon-chat-bouncer,.message.from-bouncer > .icon,.emote.from-bouncer > .icon,.mention.from-bouncer > .icon {
-    background-image: url("https://vgy.me/nRKeMG.png") !important;
-    background-position: 0 0;
-}
-
-.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
-    color: #00DC8F !important;
-}
-
-#user-lists .group.bouncer ~ .user {
-    color: #00DC8F !important;
-}
-
-/* Rdj */
-
-#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
-    color: #00BC64 !important;
-}
-
-.icon-chat-dj,.message.from-residentdj > .icon,.emote.from-residentdj > .icon,.mention.from-residentdj > .icon {
-    background-image: url("https://vgy.me/g5yT87.png") !important;
-    background-position: 0 0;
-}
-
-.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
-    color: #00BC64 !important;
-}
-
-#user-lists .group.dj ~ .user {
-    color: #00BC64 !important;
 }
 
 .user-content.profile .meta .blurb .box {
@@ -2257,39 +2217,7 @@ icon-chat-admin {
 }
 
 .subscribe-button span {
-    color: #FFE149;
-}
-
-#playlist-import {
-    left: 0;
-    z-index: 50;
-    background: #000000;
-}
-
-#playlist-create {
-    right: 0;
-    z-index: 55;
-    background: #000000;
-}
-
-.dialog.no-submit .button.submit {
-    background: #000000 !important;
-    color: #FFFFFF !important;
-    cursor: default !important;
-}
-
-.dialog .button.cancel {
-    background: #000000 !important;
-    color: #FFFFFF;
-}
-
-.dialog-frame .button.cancel {
-    color: #FFFFFF;
-}
-
-.dialog .button.cancel:hover {
-    background: #000000 !important;
-    color: #FFFFFF;
+    color: #BABA00;
 }
 
 /* App-menu */
@@ -2307,6 +2235,16 @@ icon-chat-admin {
   -webkit-transition: 500ms ease; 
   transition: 500ms ease; 
 } 
+
+.user-content.profile .points .label {
+    position: absolute;
+    top: 28px;
+    left: 45px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 400;
+}
 
 #app-menu .list { 
   -webkit-transition: 500ms ease; 
@@ -2342,20 +2280,7 @@ icon-chat-admin {
 
 #app-menu .item:hover { 
   background: #000 !important;  
-  box-shadow: inset 0 0 10px rgb(0, 188, 100) !important;
-}
-
-#room-settings .general-settings .option button {
-    position: relative;
-    float: left;
-    width: 45%;
-    height: 39px;
-    background: #000000;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Open Sans",sans-serif;
-    cursor: default;
+  box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #search {
@@ -2384,7 +2309,7 @@ icon-chat-admin {
 
 #chat-input {
     background: #000000;
-    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
     border-radius: 10px !important;
 }
 
@@ -2392,88 +2317,79 @@ icon-chat-admin {
 
 .focused {
     border-radius: 10px !important;
-    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
-}
-
-#playlist-panel #search-bar {
-    border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 #filter-bar {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
-}
-
-.app-right .friends .list-header .input-background {
-    border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 #user-lists .list-header .input-background {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 #dashboard .search  {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 .dialog-input-background {
     background: #000000;
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 .dialog-input-background.focused {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #008000 !important;
+    -moz-box-shadow: inset 0 0 0 1px #008000 !important;
+    box-shadow: inset 0 0 0 1px #008000 !important;
 }
 
 #rcs-menu .search {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 #user-friends .search {
     border-radius: 10px !important;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D !important;
-    box-shadow: inset 0 0 0 1px #03FF7D !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00 !important;
+    box-shadow: inset 0 0 0 1px #00FF00 !important;
 }
 
 #search-menu .bar-divider {
-    background: #03FF7D;
+    background: #00FF00;
 }
 
 #search-menu li:hover {
-    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
     background: #000000;
 }
 
+.user-content.profile .notifications .row {
+    background: #000000 !important;
+    box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
 #search-menu {
-    border-color: #03FF7D !important;
+    border-color: #00FF00 !important;
 }
 
 #search-menu li {
-    border-color: #03FF7D !important;
+    border-color: #00FF00 !important;
 }
 
 .user-content.profile .meta .blurb input {
@@ -2487,9 +2403,9 @@ icon-chat-admin {
     width: 90%;
     border: none;
     background: #000000;
-    -webkit-box-shadow: inset 0 0 0 1px #03FF7D;
-    -moz-box-shadow: inset 0 0 0 1px #03FF7D;
-    box-shadow: inset 0 0 10px rgb(3, 255, 125) !important;
+    -webkit-box-shadow: inset 0 0 0 1px #00FF00;
+    -moz-box-shadow: inset 0 0 0 1px #00FF00;
+    box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
     color: #eee;
     font-weight: 400;
     font-size: 14px;
@@ -2521,7 +2437,7 @@ icon-chat-admin {
 }
 
 .notification {
-	background: rgba(3, 255, 125,.7);
+	background: rgba(0, 255, 0,.5);
 }
 #toast-notifications .left {
 	background: linear-gradient(135deg, rgba(255,255,255,.4), rgba(0,0,0,0)) !important;
@@ -2536,37 +2452,7 @@ icon-chat-admin {
     left: 0;
     width: 1px;
     height: 28px;
-    background: #03FF7D;
-}
-
-#room-settings .general-settings .description .value {
-    overflow-x: hidden;
-    height: 235px;
-    overflow-y: hidden;
-}
-
-.user-content .avatars .grid .cell .top {
-	background: #000000;
-}
-
-.user-content .grid .cell .top {
-	background: #000000 !important;
-}
-
-.user-content .avatars .cell:hover .top, .user-content .avatars .cell.selected .top {
-	background: #000000 !important;
-}
-
-.user-content .avatars .cell:hover {
-	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
-}
-
-.user-content .badges .cell:hover {
-	background: url("https://vgy.me/pUtTnW.jpg") 0 20px no-repeat !important;
-}
-
-.user-content .badges .cell.selected {
-	background: url(https://vgy.me/pUtTnW.jpg) !important;
+    background: #00FF00;
 }
 
 .communities .grid .cell .population .friends .divider {
@@ -2574,7 +2460,7 @@ icon-chat-admin {
     float: left;
     width: 1px;
     height: 24px;
-    background: #03FF7D;
+    background: #00FF00;
     margin-right: 4px;
     margin-top: -2px;
 }
@@ -2584,11 +2470,475 @@ icon-chat-admin {
     float: left;
     width: 1px;
     height: 24px;
-    background: #03FF7D;
+    background: #00FF00;
     margin-right: 4px;
     margin-top: -2px;
 }
 
-#user-lists .list.staff .group:first-child {
-	background:transparent;
+/* Staff Colors */
+
+#chat .from.staff .un {
+	color: #00FF00;
+}
+
+/* Admin Colors */
+
+#chat .from.admin .un {
+	color: #00FFFF;
+}
+
+.is-admin .name {
+	color: #00FFFF;
+}
+
+.user-content.profile .meta.is-admin .role span {
+	color:rgb(0, 255, 255);
+}
+
+.icon-chat-admin ~ .un, .app-right .friends .is-admin span, .from.admin > span {
+    color: #00FFFF !important;
+}
+
+.ul-admin { 
+  color: #00FFFF; 
+}
+
+.icon-chat-admin + span {
+ color: #00FFFF !important;
+}
+
+.origem-color-admin {
+  color: #00FFFF !important;
+}
+
+/* Ambassador Colors */
+
+#chat .from.ambassador .un {
+	color: #80FF00;
+}
+
+.is-ambassador .name {
+	color: #80FF00;
+}
+
+.user-content.profile .meta.is-ambassador .role span {
+	color:rgb(128, 255, 0);
+}
+
+.icon-chat-ambassador + span, #chat .icon-chat-ambassador ~ .un, .app-right .friends .is-ambassador span, #chat .icon-chat-ambassador ~ .un {
+    color: #80FF00 !important;
+}
+
+.ul-ambassador { 
+  color: #80FF00; 
+}
+
+.origem-color-ambassador {
+  color: #80FF00 !important;
+}
+
+/* Host Colors */
+
+.group.host {
+       color: #00FF00;
+}
+
+#chat .from.host .un {
+	color: #00FF00;
+}
+
+.is-host .name {
+	color: #00FF00;
+}
+
+.user-content.profile .meta.is-host .role span {
+	color:rgb(0, 255, 0);
+}
+
+.ul-host {
+  color: #00FF00; 
+}
+
+.icon-chat-host + span { 
+ color: #00FF00 !important;
+} 
+
+.origem-color-host {
+  color: #00FF00 !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
+    color: #00FF00 !important;
+}
+
+.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
+    color: #00FF00 !important;
+}
+
+#user-lists .group.host ~ .user {
+    color: #00FF00 !important;
+}
+
+/* Cohost Colors */
+
+#chat .from.cohost .un {
+	color: #00FF00;
+}
+
+.is-cohost .name {
+	color: #00FF00;
+}
+
+.user-content.profile .meta.is-cohost .role span {
+	color:rgb(0, 255, 0);
+}
+
+.ul-cohost {
+  color: #00FF00; 
+}
+
+.icon-chat-cohost + span {
+ color: #00FF00 !important;
+} 
+
+.origem-color-cohost {
+  color: #00FF00 !important;
+}
+
+#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
+    color: #00FF00 !important;
+}
+
+.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
+    color: #00FF00 !important;
+}
+
+/* Manager Colors */
+
+.group.manager {
+       color: #00FF00;
+}
+
+#chat .from.manager .un {
+	color: #00FF00;
+}
+
+.is-manager .name {
+	color: #00FF00;
+}
+
+.user-content.profile .meta.is-manager .role span {
+	color:rgb(0, 255, 0);
+}
+
+.ul-manager {
+  color: #00FF00; 
+}
+
+.icon-chat-manager + span {
+ color: #00FF00 !important;
+} 
+
+.origem-color-manager {
+  color: #00FF00 !important;
+}
+
+.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
+    color: #00FF00 !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
+    color: #00FF00 !important;
+}
+
+#user-lists .group.manager ~ .user {
+    color: #00FF00 !important;
+}
+
+/* Bouncer Colors */
+
+.group.bouncer {
+       color: #00FF00;
+}
+
+#chat .from.bouncer .un {
+	color: #00FF00;
+}
+
+.is-bouncer .name {
+	color: #00FF00;
+}
+
+.user-content.profile .meta.is-bouncer .role span {
+	color:rgb(0, 255, 0);
+}
+
+.ul-bouncer {
+  color: #00FF00; 
+}
+
+.icon-chat-bouncer + span {
+ color: #00FF00 !important;
+} 
+
+.origem-color-bouncer {
+  color: #00FF00 !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
+    color: #00FF00 !important;
+}
+
+.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
+    color: #00FF00 !important;
+}
+
+#user-lists .group.bouncer ~ .user {
+    color: #00FF00 !important;
+}
+
+/* Resident Dj Colors */
+
+.group.dj {
+       color: #00FF00;
+}
+
+#chat .from.dj .un {
+	color: #00FF00;
+}
+
+.is-dj .name {
+	color: #00FF00;
+}
+
+.user-content.profile .meta.is-dj .role span {
+	color:rgb(0, 255, 0);
+}
+
+.ul-dj {
+  color: #00FF00; 
+}
+
+.icon-chat-dj + span {
+ color: #00FF00 !important;
+} 
+
+.origem-color-dj {
+  color: #00FF00 !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
+    color: #00FF00 !important;
+}
+
+.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
+    color: #00FF00 !important;
+}
+
+#user-lists .group.dj ~ .user {
+    color: #00FF00 !important;
+}
+
+/* Subscriber Colors */
+
+#chat .from.subscriber .un {
+	color: #BABA00;
+}
+
+.is-subscriber .name {
+	color: #BABA00;
+}
+
+.user-content.profile .meta.is-subscriber .role span {
+	color:rgb(186, 186, 0);
+}
+
+#user-rollover .meta.subscriber .status span {
+	color: #BABA00;
+}
+
+#user-rollover .actions .giftsub span {
+	color: #BABA00;
+}
+
+.ul.subscriber {
+        color: #BABA00; 
+}
+
+.icon-chat-subscriber + span {
+        color: #BABA00 !important;
+}
+
+.origem-color-subscriber {
+        color: #BABA00 !important;
+}
+
+/* Silversubscriber Colors */
+
+#chat .from.subscriber.silver .un {
+	color: #DEDEDE;
+}
+
+.is-subscriber.silver .name {
+	color: #DEDEDE;
+}
+
+.user-content.profile .meta.is-subscriber.silver .role span {
+	color:rgb(222, 222, 222);
+}
+
+#user-rollover .meta.subscriber.silver .status span {
+	color: #DEDEDE;
+}
+
+.icon-chat-subscriber.silver + span {
+        color: #DEDEDE !important;
+} 
+
+.origem-color-subscriber.silver {
+        color: #DEDEDE !important;
+}
+
+
+/* Rustack */
+
+#user-rollover.id-29099103 .meta:before {
+    content: 'CSS';
+    top: 112px;
+    left: 105px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #00FF00;
+    background: linear-gradient(rgba(0, 64, 0, 0.5), rgba(0, 64, 0, 0.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29099103 .meta:after {
+    content: 'Designer';
+    color: #00FF00;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+#chat .cm[data-cid^="29099103-"] .un {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span:after {
+    content:'/ VIP';
+}
+
+.id-29099103 > .msg > .from.dj > .un {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#waitlist .list .user[data-uid="29099103"] .meta.is-staff .name .icon-chat-dj + span {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-rollover.id-29099103 > .meta > .username {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-lists .list.room .user.id-29099103 .name {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#chat .cm.message.id-29099103 {
+    border-left:  #00FF00 2px dotted !important;
+    border-right: #00FF00 2px dotted !important;
+}
+
+#chat .cm.emote.id-29099103 {
+    border-left:  #00FF00 2px dotted !important;
+    border-right: #00FF00 2px dotted !important;
+}
+
+#chat .cm.message.id-29099103:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+#chat .cm.emote.id-29099103:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+.emote.id-29099103 .text {
+    color:  #00FF00 !important;
+}
+
+[data-cid^="29099103"].cm .msg .from .un  {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-lists .list.room .user.role-dj.id-29099103 .name {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+[data-cid^="29099103"].cm .msg .from .un {
+        font-size: 13px;
+}
+
+[data-cid^="29099103"].cm:hover .msg .from .un  {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#user-lists .list .user.role-dj.id-29099103:hover .name  {
+    color: rgb(0, 255, 0) !important;
+    text-shadow: 0px 0px 1px #00FF00, 0px 0px 5px #00FF00, 2px 2px 10px #00FF00 !important;
+}
+
+#chat [data-cid^='29099103-'] .un:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #00FF00;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #00FF00;
+    font-style: normal;
+}
+
+#user-lists .list .user.id-29099103 .name:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #00FF00;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #00FF00;
+    font-style: normal;
+}
+
+#user-rollover.id-29099103 .username:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #00FF00;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #00FF00;
+    font-style: normal;
 }
