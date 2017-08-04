@@ -253,7 +253,6 @@
 	background-position: center;
 }
 
-
 /* Vote */
 
 #vote .crowd-response.disabled .bottom {
@@ -268,6 +267,10 @@
      background: #000000;
 }
 
+#vote .crowd-response {
+    background: none;
+}
+
 #vote .bottom {
      width: calc(100% - 1px);
 }
@@ -278,6 +281,9 @@
 
 /* Woot */
 
+.icon-woot {
+     -webkit-filter: hue-rotate(130deg);
+}
 
 #woot .top {
      color:  #00FF00;
@@ -288,7 +294,7 @@
      border-top: 2px solid #00FF00;
      border-bottom: 2px solid #00FF00;
      color: #00FF00;
-     box-shadow: 4px 0px 10px -4px #00FF00 inset;
+     box-shadow: 4px 0px 20px -4px #00FF00 inset;
 }
 
 #woot {
@@ -304,7 +310,7 @@
      border-top: 2px solid #00FF00;
      border-bottom: 2px solid #00FF00;
      color: #00FF00;
-     box-shadow: 4px 0px 10px -4px #00FF00 inset;
+     box-shadow: 4px 0px 20px -4px #00FF00 inset;
 }
 
 /* Grab */
@@ -318,7 +324,7 @@
      border-top: 2px solid #8000FF;
      border-bottom: 2px solid #8000FF;
      color: #8000FF;
-     box-shadow: 0px 0px 10px -4px #8000FF inset;
+     box-shadow: 0px 0px 20px -4px #8000FF inset;
 }
 
 #grab {
@@ -327,10 +333,10 @@
 
 #grab-rs .title {
      background: #000000;
-     border-top: 2px solid #8000FF;
-     border-bottom: 2px solid #8000FF;
+     border-top: 1px solid #8000FF;
+     border-bottom: 1px solid #8000FF;
      color: #8000FF;
-     box-shadow: 0px 0px 10px -4px #8000FF inset;
+     box-shadow: 0px 0px 20px -4px #8000FF inset;
 }
 
 /* Meh */
@@ -341,10 +347,11 @@
 
 #meh .bottom {
      background: #000000;
-     border-top: 2px solid #FF0000;
-     border-bottom: 2px solid #FF0000;
+     border-top: 1px solid #FF0000;
+     border-bottom: 1px solid #FF0000;
      color: #FF0000;
-     box-shadow: -4px 0px 10px -4px #FF0000 inset;
+     box-shadow: -4px 0px 20px -4px #FF0000 inset;
+
 }
 
 #meh {
@@ -353,10 +360,10 @@
 
 #meh-rs .title {
      background: #000000;
-     border-top: 2px solid #FF0000;
-     border-bottom: 2px solid #FF0000;
+     border-top: 1px solid #FF0000;
+     border-bottom: 1px solid #FF0000;
      color: #FF0000;
-     box-shadow: -4px 0px 10px -4px #FF0000 inset;
+     box-shadow: -4px 0px 20px -4px #FF0000 inset;
 }
 
 /* Dj-button */
