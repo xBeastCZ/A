@@ -416,15 +416,15 @@
 }
 
 #dj-button.is-full {
-     border: 2px solid #585858;
+     border: 2px solid #000000;
 }
 
 #dj-button.is-locked {
-     border: 2px solid #585858;
+     border: 2px solid #000000;
 }
 
 #dj-button.is-leave {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #FF0000;
      color: #FF0000;
      box-shadow: -4px 0px 18px -4px #FF0000 inset;
@@ -432,7 +432,7 @@
 }
 
 #dj-button.is-quit {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #FF0000;
      color: #FF0000;
      box-shadow: -4px 0px 18px -4px #FF0000 inset;
@@ -440,7 +440,7 @@
 }
 
 #dj-button {
-     background: #101016;
+     background: #000000;
      border-top: 2px solid #00FF00;
      color: #00FF00;
      box-shadow: 4px 0px 18px -4px #00FF00 inset;
@@ -480,7 +480,7 @@
 }
 
 #dj-button {
-    background: #181821;
+    background: #000000;
     border-bottom: 2px solid #00FF00;
     box-shadow: 0px 7px 14px -6px #00FF00;
 }
@@ -492,7 +492,7 @@
 }
 
 .pop-menu.grab .bar {
-     background: #101016;
+     background: #000000;
      border-top: 1px solid #8000FF;
      border-bottom: 1px solid #8000FF;
      color: #8000FF;
@@ -505,7 +505,7 @@
 }
 
 .pop-menu.grab .menu::-webkit-scrollbar-thumb {
-     background: #101016;
+     background: #000000;
      border-top: 1px solid #8000FF;
      border-bottom: 1px solid #8000FF;
      color: #8000FF;
@@ -518,7 +518,7 @@
 }
 
 .pop-menu.grab .menu ul li:hover {
-     background: #101016;
+     background: #000000;
      border-top: 1px solid #8000FF;
      border-bottom: 1px solid #8000FF;
      color: #8000FF;
@@ -527,7 +527,7 @@
 }
 
 .pop-menu.grab .menu ul li.create:hover {
-     background: #00FF00;
+     background: #000000;
      border-top: 1px solid #00FF00;
      border-bottom: 1px solid #00FF00;
      color: #00FF00;
