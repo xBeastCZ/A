@@ -1201,7 +1201,17 @@
         box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
+#user-inventory .badges .grid .cell.selected {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
 .user-content .avatars .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+#user-inventory .avatars .grid .cell.selected .top {
 	background: #000;
         box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
